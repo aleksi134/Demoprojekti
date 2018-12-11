@@ -5,21 +5,31 @@
 <link 
 href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Merriweather+Sans|Mountains+of+Christmas|Noto+Sans+JP|Varela+Round"
  rel="stylesheet">
+ <!-- jQuery -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- MenuMaker Plugin -->
+<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
+
+<!-- Icon Library -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
 <body> 
 
     <div>
         <nav id="navigation"></nav>
-    </div>
+    
 
     <!--Navigation links-->
             <div class="sidenav">
-                    <a href="#"></a>
+                    <nav id="navigation">
+                  <a href="#Meistä">Meistä</a>
+                  <a href="#Palvelut">Palvelut</a>
+                  <a href="#Tuotteet">Tuotteet</a>
                   <a href="#"></a>
                   <a href="#"></a>
                   <a href="#"></a>
-                  <a href="#"></a>
-                  <a href="#"></a>
+                </nav>
                 </div>
     
 
@@ -32,7 +42,7 @@ href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Mer
      <!--Sub content-->
 
 <div>
-    <header class="headeredits" id="palvelut"><strong>Palvelut</strong></header>
+    <header class="headeredits" id="Palvelut"><strong>Palvelut</strong></header>
     <p></p>
     <p></p>
     <ul>
@@ -41,7 +51,7 @@ href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Mer
 </div>
 
 <div>
-        <header class="headeredits" id="tuotteet"><strong>Tuotteet</strong></header>
+        <header class="headeredits" id="Tuotteet"><strong>Tuotteet</strong></header>
         <p></p>
         <p></p>
         <ul>
@@ -97,15 +107,7 @@ href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Mer
   
                     });
   
-                    var mapOptions {
-                        panControl: true,
-                        zoomControl: true,
-                        mapTypeControl: true,
-                        scaleControl: true,
-                        streetViewControl: true,
-                        overviewMapControl: true,
-                        rotateControl: true
-}
+                   
                 </script>
                 
                 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
