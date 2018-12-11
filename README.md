@@ -1,5 +1,6 @@
 # Demoprojekti
 
+Linked font families:
 font-family: 'Arimo', sans-serif;
 font-family: 'Hind', sans-serif;
 font-family: 'Bitter', serif;
