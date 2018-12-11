@@ -7,6 +7,7 @@ href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Mer
  rel="stylesheet">
     </head>
 <body> 
+
     <div>
         <nav id="navigation"></nav>
     </div>
@@ -31,15 +32,21 @@ href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Mer
      <!--Sub content-->
 
 <div>
-    <header class="headeredits" id=""><strong>Palvelut</strong></header>
+    <header class="headeredits" id="palvelut"><strong>Palvelut</strong></header>
     <p></p>
     <p></p>
+    <ul>
+        <li></li>
+    </ul>
 </div>
 
 <div>
-        <header class="headeredits" id=""><strong>Tuotteet</strong></header>
+        <header class="headeredits" id="tuotteet"><strong>Tuotteet</strong></header>
         <p></p>
         <p></p>
+        <ul>
+            <li></li>
+        </ul>
     </div>
 
     <div>
@@ -55,13 +62,28 @@ href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Mer
             </div>
 <!--Imgs,social links,companies-->
 <div>
-    <img>
-
+    <img href=>
 </div>
 
 <div>
 </div>
 
+<div>
+        <script>
+                function myMap() {
+                var mapProp= {
+                    center:new google.maps.LatLng(),
+                    zoom:5,
+                };
+                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                }
+                </script>
+                
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</div>
+
 </body>
-<footer></footer>
+<footer id="sosiaalisetlinkit">
+
+</footer>
     </html>
