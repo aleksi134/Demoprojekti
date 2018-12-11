@@ -88,18 +88,23 @@ href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Mer
  
                     marker.setMap(map);
                     // Zoom to 9 when clicking on marker
-google.maps.event.addListener(marker,'click',function() {
-  map.setZoom(9);
-  map.setCenter(marker.getPosition());
-  });
-  var mapOptions {
-    panControl: true,
-    zoomControl: true,
-    mapTypeControl: true,
-    scaleControl: true,
-    streetViewControl: true,
-    overviewMapControl: true,
-    rotateControl: true
+
+                    google.maps.event.addListener(marker,'click',function() {
+  
+                        map.setZoom(9);
+  
+                        map.setCenter(marker.getPosition());
+  
+                    });
+  
+                    var mapOptions {
+                        panControl: true,
+                        zoomControl: true,
+                        mapTypeControl: true,
+                        scaleControl: true,
+                        streetViewControl: true,
+                        overviewMapControl: true,
+                        rotateControl: true
 }
                 </script>
                 
