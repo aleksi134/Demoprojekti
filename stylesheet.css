@@ -1,10 +1,12 @@
 
 
 body {
-
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .headeredits {
-    
+    font-family: 'Arimo', sans-serif;
+    position: relative;
+    right: 50px;
 }
 
 
