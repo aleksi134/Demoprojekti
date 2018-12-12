@@ -1,12 +1,15 @@
 
-#visio4titteli {
-    font-family: 'Acme', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-}
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
+}
+#visio4 {
+    
+    position: fixed;
+    top: 30px;
+    left: 50px;
+    font-weight: bold;
+    font-style: italic;
 }
 .headeredits {
     font-family: 'Arimo', sans-serif;
@@ -40,4 +43,6 @@ body {
     width: 100%;
     height: 400px;
     background-color: grey;
+    position: fixed;
+    top: 100px;
   }
