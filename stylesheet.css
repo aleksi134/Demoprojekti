@@ -5,11 +5,10 @@ body {
 }
 #visio4 {
     
-    position: fixed;
-    top: 30px;
-    left: 50px;
+    Text-align: center;
     font-weight: bold;
     font-style: italic;
+    top: 20px;
 }
 .headeredits {
     font-family: 'Arimo', sans-serif;
