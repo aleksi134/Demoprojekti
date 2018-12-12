@@ -4,11 +4,12 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 #visio4 {
-    
+    font-family: 'Hind', sans-serif;
     Text-align: center;
     font-weight: bold;
     font-style: italic;
     top: 20px;
+    font-size: 30px;
 }
 .headeredits {
     font-family: 'Arimo', sans-serif;
