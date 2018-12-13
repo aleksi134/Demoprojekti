@@ -12,9 +12,13 @@ body {
     font-size: 30px;
 }
 .headeredits {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Unlock', cursive;
+    font-size: 40px;
     position: relative;
-    right: 50px;
+    top: 50px;
+    left: 900px;
+    margin: 300px;
+    
 }
 
 /*media setups for different platforms */
