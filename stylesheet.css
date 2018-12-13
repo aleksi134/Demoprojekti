@@ -20,6 +20,9 @@ body {
     margin: 300px;
     
 }
+#navigation {
+    
+}
 
 /*media setups for different platforms */
 @media only screen and (min-width: 768px) {
