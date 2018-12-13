@@ -39,9 +39,6 @@ function initMap() {
   });
 
   marker = new google.maps.Marker({
-    map: map,
-    draggable: true,
-    animation: google.maps.Animation.DROP,
     position: {lat: 59.327, lng: 18.067}
   });
   marker.addListener('click', toggleBounce);
@@ -119,3 +116,7 @@ function toggleBounce() {
 </div>
 
 AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY
+
+62.598719
+
+29.761152
