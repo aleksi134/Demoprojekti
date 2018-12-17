@@ -3,6 +3,13 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
 }
+#Visio4Logo {
+    position: relative;
+    top: 300px;
+    left: 800px;
+    margin: 30px;
+    border-width: 100px;
+}
 #visio4 {
     font-family: 'Hind', sans-serif;
     Text-align: center;
