@@ -17,106 +17,32 @@ font-family: 'Major Mono Display', monospace;
 font-family: 'Staatliches', cursive;
 font-family: 'Abril Fatface', cursive;
 
-$(document).ready(function(){
-  $(".button a").click(function(){
-      $(".overlay").fadeToggle(200);
-     $(this).toggleClass('btn-open').toggleClass('btn-close');
-  });
-});
-$('.overlay').on('click', function(){
-  $(".overlay").fadeToggle(200);   
-  $(".button a").toggleClass('btn-open').toggleClass('btn-close');
-  open = false;
-});
-
-
-var marker;
-
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 13,
-    center: {lat: 59.325, lng: 18.070}
-  });
-
-  marker = new google.maps.Marker({
-    position: {lat: 59.327, lng: 18.067}
-  });
-  marker.addListener('click', toggleBounce);
-}
-
-function toggleBounce() {
-  if (marker.getAnimation() !== null) {
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-}
-
-    /*main code*/
-        function initMap() {
-          
-          var Visio4= {lat: 62.598719, lng: 29.761152 };
-          var map = new google.maps.Map(
-              document.getElementById('map'), {zoom: 18, center: Visio4})
-          var marker = new google.maps.Marker({position: Visio4, map: map});
-        }
-            </script>
-            
-            <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY&callback=initMap">
-
-        marker = new google.maps.Marker({
-        map: map,
-        draggable: true,
-        animation: google.maps.Animation.DROP,
-        position: {lat: 62.598719, lng: 29.761152}
-  });
-            marker.addListener('click', toggleBounce);
-}
-
-        function toggleBounce() {
-            if (marker.getAnimation() !== null) {
-            marker.setAnimation(null);
-  }         else {
-            marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-}
-
-
-<div>
-    <script>
-        var marker;
-    
-        
-    
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 18,
-        center: {lat: 62.598719, lng: 29.761152}
-      });
-    
-      marker = new google.maps.Marker({
-        map: map,
-        draggable: true,
-        animation: google.maps.Animation.DROP,
-        position: {lat: 62.598719, lng: 29.761152}
-      });
-      marker.addListener('click', toggleBounce);
-    }
-    
-    function toggleBounce() {
-      if (marker.getAnimation() !== null) {
-        marker.setAnimation(null);
-      } else {
-        marker.setAnimation(google.maps.Animation.BOUNCE);
-      }
-    }
-    
-    </script>
-</div>
 
 AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY
 
 62.598719
 
 29.761152
+
+Screen stuff
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
