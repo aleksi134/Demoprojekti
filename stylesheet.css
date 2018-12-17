@@ -9,26 +9,25 @@ body {
     left: 800px;
     margin: 30px;
     border-width: 100px;
+    background-color:  #a6a6a6;
+    background-size: 200px;
+    z-index: 2;
+    width: 500px;
 }
-#visio4 {
-    font-family: 'Hind', sans-serif;
-    Text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    top: 20px;
-    font-size: 30px;
-}
+
 .headeredits {
     font-family: 'Unlock', cursive;
     font-size: 40px;
     position: relative;
-    top: 50px;
+    top: 500px;
     left: 900px;
     margin: 300px;
+    z-index: 1;
     
 }
 #navigation {
-    
+    position: fixed;
+
 }
 
 /*media setups for different platforms */
