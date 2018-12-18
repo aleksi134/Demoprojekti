@@ -18,6 +18,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
     z-index: 2;
     width: 500px;
 }
+ 
+p {
+    max-width: 600px;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+
+#keitämeolemmeteksti{
+position: relative;
+top: 500px;
+left: 1000px;
+
+}
 
 .headeredits {
     font-family: 'Unlock', cursive;
