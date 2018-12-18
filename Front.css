@@ -2,7 +2,11 @@
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: #BDBDBD;
+    background: rgb(242,246,248);
+background: -moz-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(112,125,127,1) 0%, rgba(216,225,231,1) 100%, rgba(224,239,249,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%,rgba(112,125,127,1) 0%,rgba(216,225,231,1) 100%,rgba(224,239,249,1) 100%);
+background: radial-gradient(ellipse at center, rgba(242,246,248,1) 0%,rgba(112,125,127,1) 0%,rgba(216,225,231,1) 100%,rgba(224,239,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 );
 }
 #Visio4Logo {
     position: relative;
@@ -32,7 +36,7 @@ body {
     height: 400px;
     background-color: grey;
     position: fixed;
-    top: 100px;
+    top: 1000px;
     
     
 
