@@ -50,6 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
     font-size: 14px;
     background-color: rgba(186, 186, 186, 1);
     border-bottom-width: 0px;
+    
 }
 #Visio4-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: rgba(119, 119, 119, 1);
