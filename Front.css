@@ -26,11 +26,15 @@ p {
 }
 
 #keitämeolemmeteksti{
-position: relative;
-top: 500px;
-left: 1000px;
-
+  position: relative;
+  top: 500px;
+  left: 1000px;
 }
+#keitämeolemmeteksti2{
+    position: relative;
+    top: 500px;
+    left: 1000px;
+    }
 
 .headeredits {
     font-family: 'Unlock', cursive;
