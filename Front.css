@@ -1,12 +1,12 @@
 
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
-    background: rgb(242,246,248);
-background: -moz-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(112,125,127,1) 0%, rgba(216,225,231,1) 100%, rgba(224,239,249,1) 100%);
-background: -webkit-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%,rgba(112,125,127,1) 0%,rgba(216,225,231,1) 100%,rgba(224,239,249,1) 100%);
-background: radial-gradient(ellipse at center, rgba(242,246,248,1) 0%,rgba(112,125,127,1) 0%,rgba(216,225,231,1) 100%,rgba(224,239,249,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 );
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+0,e1e1e1+51,f1f1f1+99,f6f6f6+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 0%, rgba(225,225,225,1) 51%, rgba(241,241,241,1) 99%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 0%,rgba(225,225,225,1) 51%,rgba(241,241,241,1) 99%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 0%,rgba(225,225,225,1) 51%,rgba(241,241,241,1) 99%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
 }
 #Visio4Logo {
     position: relative;
@@ -40,7 +40,7 @@ p {
     font-family: 'Unlock', cursive;
     font-size: 40px;
     position: relative;
-    top: 500px;
+    top: 4000px;
     left: 900px;
     z-index: 1;
     margin: 100px;
@@ -53,13 +53,25 @@ p {
     height: 400px;
     background-color: grey;
     position: fixed;
-    top: 1000px;
-    
-    
-
+    top: 5000px;
   }
 
   /* Visio4 navbar*/
+  nav {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    //transition:top 0.15s ease;
+    box-shadow: 3px 0 3px 3px rgba(0,0,0,0.25);
+    background: red;
+  }
+  
+  nav.scrolled {
+    top:0;
+  position: fixed;
+  }
+
   #Visio4-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(0, 0, 0, 1);
 }
@@ -67,6 +79,7 @@ p {
     font-size: 14px;
     background-color: rgba(186, 186, 186, 1);
     border-bottom-width: 0px;
+
     
 }
 #Visio4-bootstrap-menu.navbar-default .navbar-nav>li>a {
