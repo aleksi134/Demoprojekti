@@ -46,3 +46,20 @@ Screen stuff
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+
+CSS gradient generated Black/white eclipse 
+
+background: rgb(216,224,222);
+background: -moz-radial-gradient(center, ellipse cover, rgba(216,224,222,1) 0%, rgba(142,166,162,1) 0%, rgba(142,166,162,1) 0%, rgba(14,14,14,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover, rgba(216,224,222,1) 0%,rgba(142,166,162,1) 0%,rgba(142,166,162,1) 0%,rgba(14,14,14,1) 100%);
+background: radial-gradient(ellipse at center, rgba(216,224,222,1) 0%,rgba(142,166,162,1) 0%,rgba(142,166,162,1) 0%,rgba(14,14,14,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=1 );
+
+CSS generated gradient black/white/Grey 
+
+background: rgb(69,72,77);
+background: -moz-linear-gradient(left, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(left, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 97%,rgba(0,0,0,1) 100%,rgba(0,0,0,1) 100%);
+background: linear-gradient(to right, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 97%,rgba(0,0,0,1) 100%,rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
