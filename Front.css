@@ -18,22 +18,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     z-index: 2;
     width: 500px;
 }
- 
-p {
-    max-width: 600px;
+
+.palvtuotteet {
+    max-width: 500px;
+    top: 1000px;
+    left: 1000px;
     font-size: 30px;
+    position: relative;
+}
+
+
+p {
     font-family: 'Staatliches', cursive;
 }
 
 #keitämeolemmeteksti{
   position: relative;
-  top: 500px;
+  top: 2000px;
   left: 1000px;
+  max-width: 600px;
+  font-size: 30px;
 }
 #keitämeolemmeteksti2{
     position: relative;
-    top: 500px;
+    top: 2000px;
     left: 1000px;
+    font-size: 30px;
     }
 
 .headeredits {
