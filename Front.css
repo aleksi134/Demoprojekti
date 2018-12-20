@@ -134,3 +134,8 @@ p {
     .sidenav a {font-size: 18px;}
 }
 
+#companieslogo {
+    background-color: #bababa;
+    height: 30px;
+    padding: 5px;
+}
