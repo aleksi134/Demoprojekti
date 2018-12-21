@@ -32,7 +32,8 @@ p {
   font-size: 30px;
 }
 #keitämeolemmeteksti2{
-    
+    max-width: 600px;
+  font-size: 30px;
     }
 
 .headeredits {
@@ -122,7 +123,4 @@ p {
 
 #companieslogo {
     background-color: #bababa;
-    height: 30px;
-    padding: 5px;
-    top:
 }
