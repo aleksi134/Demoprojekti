@@ -1,18 +1,15 @@
 
 
 body {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+0,e1e1e1+51,f1f1f1+99,f6f6f6+100 */
-background: rgb(255,255,255); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 0%, rgba(225,225,225,1) 51%, rgba(241,241,241,1) 99%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 0%,rgba(225,225,225,1) 51%,rgba(241,241,241,1) 99%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 0%,rgba(225,225,225,1) 51%,rgba(241,241,241,1) 99%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+    background: rgb(216,224,222);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(216,224,222,1) 0%, rgba(142,166,162,1) 0%, rgba(142,166,162,1) 0%, rgba(14,14,14,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(216,224,222,1) 0%,rgba(142,166,162,1) 0%,rgba(142,166,162,1) 0%,rgba(14,14,14,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(216,224,222,1) 0%,rgba(142,166,162,1) 0%,rgba(142,166,162,1) 0%,rgba(14,14,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=1 );
 }
 
 #Visio4Logo {
-    position: relative;
-    top: 300px;
-    left: 800px;
+    
     margin: 30px;
     border-width: 100px;
     background-size: cover;
@@ -22,10 +19,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .palvtuotteet {
     max-width: 500px;
-    top: 1000px;
-    left: 1000px;
     font-size: 30px;
-    position: relative;
 }
 
 
@@ -34,25 +28,16 @@ p {
 }
 
 #keitämeolemmeteksti{
-  position: relative;
-  top: 2000px;
-  left: 1000px;
   max-width: 600px;
   font-size: 30px;
 }
 #keitämeolemmeteksti2{
-    position: relative;
-    top: 2000px;
-    left: 1000px;
-    font-size: 30px;
+    
     }
 
 .headeredits {
     font-family: 'Unlock', cursive;
     font-size: 40px;
-    position: relative;
-    top: 4000px;
-    left: 900px;
     z-index: 1;
     margin: 100px;
     line-height: 1.45;
@@ -64,7 +49,7 @@ p {
     height: 400px;
     background-color: grey;
     position: fixed;
-    top: 5000px;
+    
   }
 
   /* Visio4 navbar*/
@@ -139,4 +124,5 @@ p {
     background-color: #bababa;
     height: 30px;
     padding: 5px;
+    top:
 }
