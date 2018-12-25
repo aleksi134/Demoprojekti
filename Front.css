@@ -9,7 +9,9 @@ body {
 }
 
 #Visio4Logo {
-    
+    position: relative;
+    position: absolute;
+    left: 45%;
     margin: 30px;
     border-width: 100px;
     background-size: cover;
@@ -54,6 +56,21 @@ p {
   }
 
   /* Visio4 navbar*/
+  #nav {
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+    }
+    #nav li {
+    float:left;
+    }
+    #nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
+    }
+
   #Visio4-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(0, 0, 0, 1);
 }
@@ -61,7 +78,9 @@ p {
     font-size: 14px;
     background-color: rgba(186, 186, 186, 1);
     border-bottom-width: 0px;
-
+    width:750px;
+    margin:0 auto;
+    list-style:none;
     
 }
 #Visio4-bootstrap-menu.navbar-default .navbar-nav>li>a {
