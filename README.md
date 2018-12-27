@@ -74,3 +74,9 @@ background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241
 background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 0%,rgba(225,225,225,1) 51%,rgba(241,241,241,1) 99%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
 }
+
+background-image: linear-gradient(to right top, #ffffff, #d0d0d3, #a2a2a8, #76777f, #4c4f59, #3a3c45, #292932, #191820, #171319, #130e12, #0b0709, #000000);
+
+background-image: linear-gradient(to right top, #ffffff, #d0d0d3, #a2a2a8, #76777f, #4c4f59, #4c4f59, #4c4f59, #4c4f59, #75777f, #a1a1a7, #ceced1, #fdfdfd);
+
+background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #08080c, #060609, #07070a, #07070a, #08080b, #0b0b10, #0e0e14, #111117, #13131a);
