@@ -1,6 +1,7 @@
 
 
 body {
+
 }
 #Visio4Logo {
     position: relative;
@@ -12,8 +13,8 @@ body {
     z-index: 1;
     width: 500px;
     color: #131313;
-background: #e7e5e4;
-
+    
+    
     
 }
 
@@ -54,11 +55,13 @@ p {
 
 .headeredits {
     font-family: 'Unlock', cursive;
-    font-size: 40px;
+    font-size: 50px;
     z-index: 1;
     margin: 100px;
-    line-height: 1.45;
-    
+    line-height: 2.0;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;;
+    padding-bottom: 3px;
     
 }
 
