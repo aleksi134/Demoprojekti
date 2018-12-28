@@ -1,13 +1,14 @@
 
 
 body {
-
+background-color: gray;
 }
 #Visio4Logo {
     position: relative;
     position: absolute;
     left: 45%;
-    margin: 60px;
+    top: 400px;
+    margin: 30px;
     border-width: 100px;
     background-size: cover;
     z-index: 1;
@@ -44,10 +45,16 @@ p {
 #keitämeolemmeteksti{
   max-width: 600px;
   font-size: 30px;
+  position: absolute;
+    position: relative;
+    top: 800px;
 }
 #keitämeolemmeteksti2{
     max-width: 600px;
   font-size: 30px;
+  position: absolute;
+    position: relative;
+    top: 800px;
     }
 
 .headeredits {
@@ -59,7 +66,9 @@ p {
     border-top: 1px solid black;
     border-bottom:1px solid black;;
     padding-bottom: 3px;
-    
+    position: absolute;
+    position: relative;
+    top: 800px;
 }
 
 #map {
@@ -67,11 +76,18 @@ p {
     height: 400px;
     background-color: grey;
     position: fixed;
+    top: 1000px;
+    border-color: #bababa;
+    border:30px solid grey;
     
     
     
   }
-
+footer {
+    position: absolute;
+    position: relative;
+    top: 1300px;
+}
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
