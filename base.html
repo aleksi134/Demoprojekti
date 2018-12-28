@@ -3,31 +3,20 @@
 <head>
   <title id="visio4">Parturi-kampaamo & kauneushoitola Visio4 &#124; Joensuu</title>
 
-  <!--Linked files for navbar-->
-  <link href="css for navbar/index.html">
-  <link href="css for navbar/css/style.css">
-  <link href="css for navbar/css/reset.css">
-  <link href="css for navbar/js/jquery-2.1.1.js">
-  <link href="css for navbar/js/main.js">
-  <link href="css for navbar/js/modernizr.js">
-  <link href="css for navbar/scss/style.scss">
-  <link href="css for navbar/img/">
-
-
-
-
-
-
   <!--stylesheet links-->
   <link rel=StyleSheet href="Front.css" type="text/css" media=screen>
+  <link rel=StyleSheet href="Navbar.css" type="text/css" media=screen>
+
 
   <!--Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Merriweather+Sans|Mountains+of+Christmas|Noto+Sans+JP|Varela+Round"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Charm|Major+Mono+Display|Staatliches|Unlock" rel="stylesheet">
 
+
   <!--Pictures link-->
   <link href="Kuvat/">
+  <link href="img/">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -42,7 +31,63 @@
   <script type="text/javascript" src="additions.js"></script>
 </head>
 
+
 <body>
+  <!--navbar-->
+<div>
+    <div class="cbp-af-header">
+        <div class="cbp-af-inner">
+          <h1><strong>Visio4</strong></h1>
+          <nav>
+            <a href="#">Palvelut</a>
+            <a href="#">Tuotteet</a>
+            <a href="#">Keitä me olemme</a>
+            <a href="#"></a>
+          </nav>
+        </div>
+      </div>
+</div>
+
+<!--script for nav-->
+<script>
+  var cbpAnimatedHeader = (function() {
+
+var docElem = document.documentElement,
+  header = document.querySelector( '.cbp-af-header' ),
+  didScroll = false,
+  changeHeaderOn = 300;
+
+function init() {
+  window.addEventListener( 'scroll', function( event ) {
+    if( !didScroll ) {
+      didScroll = true;
+      setTimeout( scrollPage, 250 );
+    }
+  }, false );
+}
+
+function scrollPage() {
+  var sy = scrollY();
+  if ( sy >= changeHeaderOn ) {
+    classie.add( header, 'cbp-af-header-shrink' );
+  }
+  else {
+    classie.remove( header, 'cbp-af-header-shrink' );
+  }
+  didScroll = false;
+}
+
+function scrollY() {
+  return window.pageYOffset || docElem.scrollTop;
+}
+
+init();
+
+})();
+  </script>
+
+
+
   <!--Logo-->
   <div>
     <a href="default.asp" id="Visio4Logo">
