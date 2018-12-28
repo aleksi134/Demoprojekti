@@ -5,7 +5,7 @@
 
   <!--stylesheet links-->
   <link rel=StyleSheet href="Front.css" type="text/css" media=screen>
-  <link rel=StyleSheet href="Navbar.css" type="text/css" media=screen>
+  
 
 
   <!--Fonts-->
@@ -16,7 +16,7 @@
 
   <!--Pictures link-->
   <link href="Kuvat/">
-  <link href="img/">
+  
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -28,13 +28,18 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- JS link-->
-  <script type="text/javascript" src="additions.js"></script>
+  
+  <script type="text/javascript" src="cbpAnimatedHeader.js"></script>
+  <script type="text/javascript" src="cbpAnimatedHeader.min.js"></script>
+  <script type="text/javascript" src="modernizr.custom.js"></script>
+  <script type="text/javascript" src="classie.js"></script>
+
 </head>
 
 
 <body>
+
   <!--navbar-->
-<div>
     <div class="cbp-af-header">
         <div class="cbp-af-inner">
           <h1><strong>Visio4</strong></h1>
@@ -42,49 +47,12 @@
             <a href="#">Palvelut</a>
             <a href="#">Tuotteet</a>
             <a href="#">Keitä me olemme</a>
-            <a href="#"></a>
           </nav>
         </div>
       </div>
-</div>
+
 
 <!--script for nav-->
-<script>
-  var cbpAnimatedHeader = (function() {
-
-var docElem = document.documentElement,
-  header = document.querySelector( '.cbp-af-header' ),
-  didScroll = false,
-  changeHeaderOn = 300;
-
-function init() {
-  window.addEventListener( 'scroll', function( event ) {
-    if( !didScroll ) {
-      didScroll = true;
-      setTimeout( scrollPage, 250 );
-    }
-  }, false );
-}
-
-function scrollPage() {
-  var sy = scrollY();
-  if ( sy >= changeHeaderOn ) {
-    classie.add( header, 'cbp-af-header-shrink' );
-  }
-  else {
-    classie.remove( header, 'cbp-af-header-shrink' );
-  }
-  didScroll = false;
-}
-
-function scrollY() {
-  return window.pageYOffset || docElem.scrollTop;
-}
-
-init();
-
-})();
-  </script>
 
 
 
@@ -311,6 +279,8 @@ init();
   <img src="Kuvat/logo-sesderma.png" alt="sesdermalogo">
   <img src="Kuvat/logo-tigi.png" alt="tigilogo">
   <img src="Kuvat/logo-wella.png" alt="wellalogo">
+  <link rel=StyleSheet href="Navbar.css" type="text/css" media=screen>
+  <script type="text/javascript" src="additions.js"></script>
 </footer>
 
 </html>
