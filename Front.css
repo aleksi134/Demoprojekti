@@ -55,6 +55,7 @@ p {
   position: absolute;
     position: relative;
     top: 800px;
+    right: 100px;
     }
 
 .headeredits {
@@ -79,14 +80,26 @@ p {
     top: 1000px;
     border-color: #bababa;
     border:30px solid grey;
-    
-    
-    
   }
+  #mapparagraph {
+      position: absolute;
+      position: relative;
+      top: 800px;
+    right: 30%;
+    font-size: 30px;
+  }
+
+  #osoite {
+position: absolute;
+position: relative;
+right: 100px;
+  }
+
 footer {
     position: absolute;
     position: relative;
     top: 1300px;
+    border-top:1px solid grey;
 }
 
 @media only screen and (min-width: 768px) {
@@ -110,10 +123,6 @@ footer {
     .sidenav a {font-size: 18px;}
 }
 
-#companieslogo {
-    
-    
 
-}
 
 
