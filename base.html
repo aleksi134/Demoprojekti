@@ -34,7 +34,7 @@
     color="#5bbad5">
 
   <!--links-->
-  
+
   <script type='text/javascript' src='http://www.visio4.fi/wp-content/plugins/feed-them-social/admin/js/admin.js?ver=4.7.12'></script>
   <script type='text/javascript' src='http://www.visio4.fi/wp-content/plugins/feed-them-social/feeds/js/powered-by.js?ver=4.7.12'></script>
   <script type='text/javascript' src='http://www.visio4.fi/wp-content/plugins/feed-them-social/feeds/js/magnific-popup.js?ver=4.7.12'></script>
@@ -73,8 +73,10 @@
 
 
 <body>
-  
-<!--script for nav-->
+
+  <!--script for nav-->
+
+
 
 
 
@@ -83,15 +85,15 @@
     <div class="cbp-af-inner">
       <h1><strong>Visio4</strong></h1>
       <nav>
-        <a href="#Palvelut">Palvelut</a>
-        <a href="#Tuotteet">Tuotteet</a>
-        <a href="#Meistä">Keitä me olemme</a>
+        <a href="#" onclick="$('#Palvelut').animatescroll();">Palvelut</a>
+        <a href="#" onclick="$('#Tuotteet').animatescroll();">Tuotteet</a>
+        <a href="#" onclick="$('#Meistä').animatescroll();">Meistä</a>
       </nav>
     </div>
   </div>
 
 
-  
+
 
 
   <!--Logo-->
@@ -101,7 +103,7 @@
     </a>
   </div>
 
-  <div>
+  <div class="headers">
     <!--main content-->
     <h2 class="headeredits" id="Palvelut"><strong>Palvelut</strong></h2>
     <p class="palvtuotteet"></p>
@@ -111,14 +113,15 @@
 
   <!--Sub content-->
 
-  <div>
+  <div class="headers">
     <h2 class="headeredits" id="Tuotteet"><strong>Tuotteet</strong></h2>
     <p class="palvtuotteet"></p>
     <p class="palvtuotteet"></p>
+
     <img>
   </div>
 
-  <div>
+  <div class="headers">
     <h2 class="headeredits" id="Meistä"><strong>Keitä me olemme</strong></h2>
     <p id="keitämeolemmeteksti">Visio4:ssä sinua palvelee neljä ystävystä, huippuosaajaa yli 20 vuoden ammattitaidolla
       jotka rakastavat työtään ja kouluttautuvat mahdollisimman paljon, unohtamatta pilkettä silmäkulmassa.
@@ -336,7 +339,7 @@
   <script type="text/javascript" src="cbpAnimatedHeader.min.js"></script>
   <script type="text/javascript" src="modernizr.custom.js"></script>
   <script type="text/javascript" src="classie.js"></script>
-  
-  
+
+
 
 </footer>

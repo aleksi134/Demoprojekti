@@ -80,3 +80,13 @@ background-image: linear-gradient(to right top, #ffffff, #d0d0d3, #a2a2a8, #7677
 background-image: linear-gradient(to right top, #ffffff, #d0d0d3, #a2a2a8, #76777f, #4c4f59, #4c4f59, #4c4f59, #4c4f59, #75777f, #a1a1a7, #ceced1, #fdfdfd);
 
 background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #08080c, #060609, #07070a, #07070a, #08080b, #0b0b10, #0e0e14, #111117, #13131a);
+
+
+<a href="#" onclick="$('#Palvelut').animatescroll();"></a>
+            <a href="#Palvelut">Palvelut</a>>
+          
+              <a href="#" onclick="$('#Tuotteet').animatescroll();"></a>
+            <a href="#Tuotteet">Tuotteet</a>
+          
+              <a href="#" onclick="$('#Meistä').animatescroll();"></a>
+            <a href="#Meistä">Keitä me olemme</a>
