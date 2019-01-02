@@ -1,20 +1,19 @@
-
-
 body {
-background-color: gray;
+    background-color: gray;
 }
+
 #Visio4Logo {
-    position: relative;
-    position: absolute;
-    left: 45%;
-    top: 400px;
-    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-width: 100px;
     background-size: cover;
     z-index: 1;
     width: 500px;
     color: #131313;
-    background-image: url();
+    border-bottom: 1px solid black;
+    height: 300px;
+    max-width: 100%;
 }
 
 .palvtuotteet {
@@ -25,6 +24,7 @@ background-color: gray;
 #Palvelut {
     float: right;
 }
+
 #Tuotteet {
     float: right;
     clear: both;
@@ -35,7 +35,6 @@ background-color: gray;
     clear: both;
 }
 
-
 p {
     font-family: 'Staatliches', cursive;
     float: right;
@@ -43,21 +42,22 @@ p {
     overflow: auto;
 }
 
-#keitämeolemmeteksti{
-  max-width: 600px;
-  font-size: 30px;
-  position: absolute;
+#keitämeolemmeteksti {
+    max-width: 600px;
+    font-size: 30px;
+    position: absolute;
     position: relative;
     top: 800px;
 }
-#keitämeolemmeteksti2{
+
+#keitämeolemmeteksti2 {
     max-width: 600px;
-  font-size: 30px;
-  position: absolute;
+    font-size: 30px;
+    position: absolute;
     position: relative;
     top: 800px;
     right: 100px;
-    }
+}
 
 .headeredits {
     font-family: 'Unlock', cursive;
@@ -66,12 +66,12 @@ p {
     margin: 100px;
     line-height: 2.0;
     border-top: 1px solid black;
-    border-bottom:1px solid black;;
+    border-bottom: 1px solid black;
+    ;
     padding-bottom: 3px;
     position: absolute;
     position: relative;
     top: 800px;
-
 }
 
 #map {
@@ -79,52 +79,85 @@ p {
     height: 400px;
     background-color: grey;
     position: fixed;
-    top: 1000px;
+    top: 3600px;
     border-color: #bababa;
-    border:30px solid grey;
-  }
-  #mapparagraph {
-      position: absolute;
-      position: relative;
-      top: 800px;
+    border: 30px solid grey;
+}
+
+#mapparagraph {
+    position: absolute;
+    position: relative;
+    top: 3500px;
     right: 30%;
     font-size: 30px;
-  }
+}
 
-  #osoite {
-position: absolute;
-position: relative;
-right: 100px;
-  }
+#mapheader {
+    position: absolute;
+    position: relative;
+    top: 3400px;
+    right: 30%;
+    font-size: 30px;
+}
+
+#osoite {
+    position: absolute;
+    position: relative;
+    right: 100px;
+}
 
 footer {
     position: absolute;
     position: relative;
-    top: 1300px;
-    border-top:1px solid grey;
+    top: 4000px;
+    border-top: 1px solid grey;
 }
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
-
-
-
-
