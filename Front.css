@@ -29,17 +29,17 @@ body {
     font-size: 30px;
 }
 
-#Palvelut {
+#Palvelut2 {
     float: right;
     clear: both;
 }
 
-#Tuotteet {
+#Tuotteet2 {
     float: right;
     clear: both;
 }
 
-#Meistä {
+#Meistä2 {
     float: right;
     clear: both;
 }
@@ -68,15 +68,19 @@ p {
     right: 100px;
 }
 
+span {
+    margin: 200px;
+}
+
 .headeredits {
     font-family: 'Unlock', cursive;
     font-size: 50px;
     z-index: 1;
     margin: 100px;
+    margin-bottom: 700px;
     line-height: 2.0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    ;
     padding-bottom: 3px;
     position: absolute;
     position: relative;
