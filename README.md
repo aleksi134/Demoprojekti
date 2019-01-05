@@ -24,28 +24,9 @@ AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY
 
 29.761152
 
-Screen stuff
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
+<h1 style="font-family: 'Varela Round', sans-serif;"><strong>Visio4</strong></h1>
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
 
 
 CSS gradient generated Black/white eclipse 
@@ -82,11 +63,11 @@ background-image: linear-gradient(to right top, #ffffff, #d0d0d3, #a2a2a8, #7677
 background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #08080c, #060609, #07070a, #07070a, #08080b, #0b0b10, #0e0e14, #111117, #13131a);
 
 
-<a href="#" onclick="$('#Palvelut').animatescroll();"></a>
-            <a href="#Palvelut">Palvelut</a>>
-          
-              <a href="#" onclick="$('#Tuotteet').animatescroll();"></a>
-            <a href="#Tuotteet">Tuotteet</a>
-          
-              <a href="#" onclick="$('#Meistä').animatescroll();"></a>
-            <a href="#Meistä">Keitä me olemme</a>
+
+
+
+            font-family: 'Merienda', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Forum', cursive;

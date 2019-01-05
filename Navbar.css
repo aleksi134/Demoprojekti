@@ -45,14 +45,14 @@
 }
 
 .cbp-af-header nav a {
-	color: #aaa;
+	color: #333;
 	font-weight: 700;
 	margin: 0 0 0 20px;
 	font-size: 1.4em;
 }
 
 .cbp-af-header nav a:hover {
-	color: #333;
+	color: grey;
 }
 
 /* Transitions and class for reduced height */
@@ -125,4 +125,9 @@
 	.cbp-af-header.cbp-af-header-shrink nav a {
 		line-height: 1;
 	}
+}
+
+.navbarfont {
+	font-family: 'Merriweather Sans', sans-serif;
+	
 }

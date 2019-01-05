@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: grey;
 }
 
 #Visio4Logo {
@@ -92,7 +92,7 @@ span {
     position: fixed;
     top: 3600px;
     border-color: #bababa;
-    border: 30px solid grey;
+    border: 10px solid grey;
 }
 
 #mapparagraph {
