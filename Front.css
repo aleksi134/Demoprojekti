@@ -24,9 +24,8 @@ body {
     border-bottom:1px solid black;
 }
 #col-1 {
-    position: absolute;
-    position: relative;
-    top: 300px;
+    display: block;
+
 }
 
 
@@ -42,12 +41,28 @@ body {
     position: relative;
     top: 1600px;
 }
-#meistä
+
+#meistä {
+
+}
 
 .palvtuotteet {
     max-width: 500px;
     font-size: 30px;
+    position: absolute;
+    position: relative;
+    top: 800px;
 }
+
+.palvtuotteet2 {
+    max-width: 500px;
+    font-size: 30px;
+    position: absolute;
+    position: relative;
+    top: 850px;
+    right: 20%;
+}
+
 
 #Palvelut,#Tuotteet,#Meistä {
     float: right;
@@ -118,7 +133,7 @@ span {
 #mapheader {
     position: absolute;
     position: relative;
-    top: 4550px;
+    top: 4650px;
     left: 650px;
     font-size: 30px;
 }
@@ -133,7 +148,7 @@ span {
 #mapdiv2 {
     position: absolute;
     position: relative;
-    top: 4600px;
+    top: 4900px;
     left: 730px;
 }
 
