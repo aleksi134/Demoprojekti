@@ -52,7 +52,7 @@
   <link href="https://fonts.googleapis.com/css?family=Acme|Arimo|Bitter|Hind|Lobster|Merriweather+Sans|Mountains+of+Christmas|Noto+Sans+JP|Varela+Round"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Charm|Major+Mono+Display|Staatliches|Unlock" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Forum|Lobster+Two|Merienda|Poiret+One" rel="stylesheet">
 
   <!--Pictures link-->
   <link href="Kuvat/">
@@ -77,11 +77,12 @@
   <!--navbar-->
   <div class="cbp-af-header">
     <div class="cbp-af-inner">
-      <h1><strong>Visio4</strong></h1>
+      <h1 style="font-family: 'Forum', cursive;"><strong>Visio4</strong></h1>
       <nav>
-        <a href="#" onclick="$('#Palvelut').animatescroll();">Palvelut</a>
-        <a href="#" onclick="$('#Tuotteet').animatescroll();">Tuotteet</a>
-        <a href="#" onclick="$('#Meistä').animatescroll();">Meistä</a>
+        <a href="#" onclick="$('#Palvelut').animatescroll();" class="navbarfont">Palvelut</a>
+        <a href="#" onclick="$('#Tuotteet').animatescroll();" class="navbarfont">Hinnasto</a>
+        <a href="#" onclick="$('#Meistä').animatescroll();" class="navbarfont">Keitä me olemme</a>
+        <a href="#" onclick="$('#Paikka').animatescroll();" class="navbarfont">Mistä meidät löytää?</a>
       </nav>
     </div>
   </div>
@@ -109,7 +110,7 @@
   <!--Sub content-->
 
   <div class="headers" id="">
-    <h2 class="headeredits" id="Tuotteet"><strong>Tuotteet</strong></h2>
+    <h2 class="headeredits" id="Tuotteet"><strong>Hinnasto</strong></h2>
     <p class="palvtuotteet"></p>
     <p class="palvtuotteet"></p>
 
@@ -128,7 +129,7 @@
   </div>
 
   <div>
-    <h2 id="mapheader"><strong>Muistathan varata aikasi ajoissa?</strong></h2>
+    <h2 id="Paikka" id="mapheader"><strong>Muistathan varata aikasi ajoissa?</strong></h2>
     <div id=mapparagraph>
       <p>Soita <strong>013 229 900</strong> tai laita sähköpostia osoitteeseen <strong>soitamieluummin@visio4.fi</strong></p>
       <hr>
@@ -307,14 +308,16 @@
 
   <!--Social links-->
   <div>
-
+    
   </div>
 
+  
 
 </body>
 
 </html>
 
+<div id="footerborder"></div>
 
 <footer id="Companieslogo">
   <img src="Kuvat/logo-kc.png" alt="KC logo">

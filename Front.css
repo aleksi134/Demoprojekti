@@ -1,5 +1,6 @@
 body {
-    background-color: gray;
+    background-color: grey;
+    overflow-x:hidden;
 }
 
 #Visio4Logo {
@@ -43,6 +44,7 @@ body {
     clear: both;
 }
 
+
 p {
     font-family: 'Staatliches', cursive;
     float: right;
@@ -76,7 +78,6 @@ span {
     font-size: 50px;
     z-index: 1;
     margin: 100px;
-    margin-bottom: 700px;
     line-height: 2.0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -93,7 +94,7 @@ span {
     position: fixed;
     top: 3600px;
     border-color: #bababa;
-    border: 30px solid grey;
+    border: 10px solid grey;
 }
 
 #mapparagraph {
@@ -111,6 +112,13 @@ span {
     right: 30%;
     font-size: 30px;
 }
+#paikka {
+    position: absolute;
+    position: relative;
+    top: 4700px;
+    left: 650px;
+    
+}
 
 #osoite {
     position: absolute;
@@ -122,54 +130,14 @@ footer {
     position: absolute;
     position: relative;
     top: 4000px;
+    text-align: center;
+
+}
+#footerborder {
     border-top: 1px solid grey;
+    position: absolute;
+    position: relative;
+    top: 3950px;
+    
 }
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {
-        width: 8.33%;
-    }
-    .col-2 {
-        width: 16.66%;
-    }
-    .col-3 {
-        width: 25%;
-    }
-    .col-4 {
-        width: 33.33%;
-    }
-    .col-5 {
-        width: 41.66%;
-    }
-    .col-6 {
-        width: 50%;
-    }
-    .col-7 {
-        width: 58.33%;
-    }
-    .col-8 {
-        width: 66.66%;
-    }
-    .col-9 {
-        width: 75%;
-    }
-    .col-10 {
-        width: 83.33%;
-    }
-    .col-11 {
-        width: 91.66%;
-    }
-    .col-12 {
-        width: 100%;
-    }
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
