@@ -23,23 +23,33 @@ body {
     top: 400px;
     border-bottom:1px solid black;
 }
+#col-1 {
+    position: absolute;
+    position: relative;
+    top: 300px;
+}
+
+
+#col-2 {
+    position: absolute;
+    position: relative;
+    top: 800px;
+}
+
+
+#col-3 {
+    position: absolute;
+    position: relative;
+    top: 1600px;
+}
+#meistä
 
 .palvtuotteet {
     max-width: 500px;
     font-size: 30px;
 }
 
-#Palvelut {
-    float: right;
-    clear: both;
-}
-
-#Tuotteet {
-    float: right;
-    clear: both;
-}
-
-#Meistä {
+#Palvelut,#Tuotteet,#Meistä {
     float: right;
     clear: both;
 }
@@ -66,7 +76,7 @@ p {
     position: absolute;
     position: relative;
     top: 800px;
-    right: 100px;
+    right: 115px;
 }
 
 span {
@@ -131,7 +141,7 @@ span {
 #osoite {
     position: absolute;
     position: relative;
-    right: 100px;
+    right: 120px;
 }
 
 footer {
