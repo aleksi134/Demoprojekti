@@ -71,3 +71,18 @@ font-family: 'Bad Script', cursive;
 font-family: 'Poiret One', cursive;
 font-family: 'Lobster Two', cursive;
 font-family: 'Forum', cursive;
+
+#mapheader {
+    position: absolute;
+    position: relative;
+    top: 3400px;
+    right: 30%;
+    font-size: 30px;
+}
+#paikka {
+    position: absolute;
+    position: relative;
+    top: 4700px;
+    left: 650px;
+    
+}

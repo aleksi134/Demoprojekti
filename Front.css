@@ -100,25 +100,33 @@ span {
 #mapparagraph {
     position: absolute;
     position: relative;
-    top: 3500px;
-    right: 30%;
+    top: 3450px;
+    right: 25%;
     font-size: 30px;
 }
 
 #mapheader {
     position: absolute;
     position: relative;
-    top: 3400px;
-    right: 30%;
+    top: 4550px;
+    left: 650px;
     font-size: 30px;
 }
-#paikka {
+
+
+#mapdiv {
     position: absolute;
     position: relative;
-    top: 4700px;
-    left: 650px;
-    
+    top: 4450px;
+    right: 650px;
 }
+#mapdiv2 {
+    position: absolute;
+    position: relative;
+    top: 4600px;
+    left: 730px;
+}
+
 
 #osoite {
     position: absolute;
