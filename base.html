@@ -75,85 +75,108 @@
 <body>
 
   <!--navbar-->
-  <div class="cbp-af-header">
-    <div class="cbp-af-inner">
-      <h1 style="font-family: 'Forum', cursive;"><strong>Visio4</strong></h1>
-      <nav>
-        <a href="#" onclick="$('#Palvelut').animatescroll();" class="navbarfont">Palvelut</a>
-        <a href="#" onclick="$('#Tuotteet').animatescroll();" class="navbarfont">Hinnasto</a>
-        <a href="#" onclick="$('#Meistä').animatescroll();" class="navbarfont">Keitä me olemme</a>
-        <a href="#" onclick="$('#Paikka').animatescroll();" class="navbarfont">Mistä meidät löytää?</a>
-      </nav>
-    </div>
-  </div>
+
+  <!-- <section class="cbp-af-header">
+  <section class="cbp-af-inner">
+    <h1 style="font-family: 'Forum', cursive;"><strong>Visio4</strong></h1>
+    <nav>
+      <a href="#" onclick="$('#Palvelut').animatescroll();" class="navbarfont">Palvelut</a>
+      <a href="#" onclick="$('#Hinnasto').animatescroll();" class="navbarfont">Hinnasto</a>
+      <a href="#" onclick="$('#Meistä').animatescroll();" class="navbarfont">Keitä me olemme</a>
+      <a href="#" onclick="$('#Paikka').animatescroll();" class="navbarfont">Mistä meidät löytää?</a>
+    </nav>
+  </section>
+  </section> -->
 
 
 
 
 
   <!--Logo-->
-  <div>
+  <section>
     <a href="default.asp" id="Visio4Logo">
       <img src="Kuvat/logo.png" alt="Visio4">
     </a>
     <h3 id="logoborder"></h3>
+  </section>
+
+  <!--main content-->
+
+  <div class="col-1-wrap" id="Palvelut">
+    <div class="col-1-box">
+      <div class="col-1-elements">
+        <h2 class="headeredits""><strong>Palvelut</strong></h2>
+        <p class="col-1">infoa</p>
+        <p class="col-1"></p>
+      </div>
+    </div>
   </div>
 
-  <div class="col-1" id="Palvelut">
-    <!--main content-->
-    <h2 class="col-1" class="headeredits"><strong>Palvelut</strong></h2>
-    <p class="col-1"></p>
-    <p class="col-1"></p>
-    <img>
+  <div class="img-wrap-1">
+      <img class="col-1-img" src="Kuvat/scissors.jpg">
   </div>
 
   <!--Sub content-->
 
-  <div class="col-2" id="Palvelut">
-    <h2 class="col-2" class="headeredits"><strong>Hinnasto</strong></h2>
-    <p class="col-2"></p>
-    <p class="col-2"></p>
-
-    <img>
-  </div>
-
-  <div class="col-3" id="Meistä">
-    <h2 class="col-3" class="headeredits"><strong>Keitä me olemme</strong></h2>
-    <p class="col-3">Visio4:ssä sinua palvelee neljä ystävystä, huippuosaajaa yli 20 vuoden ammattitaidolla
-      jotka rakastavat työtään ja kouluttautuvat mahdollisimman paljon, unohtamatta pilkettä silmäkulmassa.
-      Meille on tärkeää palvella sinua yksilöllisesti, juuri sinun persoonallisuutesi huomioiden. Inspiroidumme
-      väreistä, muodista, ympärillämme olevasta elämästä, kaikesta kauniista.
-    </p>
-    <p class="col-3">Piipahda, nykäise hihasta, olet tervetullut.</p>
-    <img>
-  </div>
-
-  <div class="col-4" id="Paikka">
-    <h2 class="col-4" class="headeredits"><strong>Muistathan varata aikasi ajoissa?</strong></h2>
-    <div >
-      <p class="col-4">Soita <strong>013 229 900</strong> tai laita sähköpostia osoitteeseen <strong>soitamieluummin@visio4.fi</strong></p>
-     
-      <p class="col-4" >Tai tule piipahtamaan osoitteessa <strong>Torikatu 17, 80100 Joensuu.</strong></p>
+  <div class="col-2-wrap" id="Hinnasto">
+    <div class="col-2-box">
+      <div class="col-2-elements">
+        <h2 class="headeredits"><strong>Hinnasto</strong></h2>
+        <p class="col-2">hintoja</p>
+        <p class="col-2"></p>
+      </div>
     </div>
   </div>
 
-  <!--google maps scripts and styling-->
-  <div id="map" style="width:100%;height:400px">
+  <div class="img-wrap-2">
+      <img class="col-2-img" src="Kuvat/parturikampaamo.jpg">
+      <img class="col-2-img" src="Kuvat/kauneushoitola.jpg">
+  </div>
 
-    <!--map script,styling,markers etc..-->
-    <script>
-      //map function and init
-      function initMap() {
-        var myLatLng = {
-          lat: 62.598719,
-          lng: 29.761152
-        };
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: myLatLng,
-          zoom: 18,
+  <div class="col-3-wrap" id="Meistä">
+    <div class="col-3-box">
+      <div class="col-3-elements">
+        <h2 class="headeredits"><strong>Keitä me olemme</strong></h2>
+        <p class="col-3">Visio4:ssä sinua palvelee neljä ystävystä, huippuosaajaa yli 20 vuoden ammattitaidolla
+          jotka rakastavat työtään ja kouluttautuvat mahdollisimman paljon, unohtamatta pilkettä silmäkulmassa.
+          Meille on tärkeää palvella sinua yksilöllisesti, juuri sinun persoonallisuutesi huomioiden. Inspiroidumme
+          väreistä, muodista, ympärillämme olevasta elämästä, kaikesta kauniista.
+        </p>
+        <p class="col-3">Piipahda, nykäise hihasta, olet tervetullut.</p>
+        <img class="col-3" src="">
+      </div>
+    </div>
+  </div>
 
-          //Styles a map in night mode.
-          styles: [{
+  <div class="col-4-wrap" id="Paikka">
+    <div class="col-4-box">
+      <div class="col-4-elements">
+        <h2 class="col-4"><strong>Muistathan varata aikasi ajoissa?</strong></h2>
+        <div>
+          <p class="col-4">Soita <strong>013 229 900</strong> tai laita sähköpostia osoitteeseen <strong>soitamieluummin@visio4.fi</strong></p>
+
+          <p class="col-4">Tai tule piipahtamaan osoitteessa <strong>Torikatu 17, 80100 Joensuu.</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <!--google maps scripts and styling-->
+    <div id="map" style="width:100%;height:400px">
+
+      <!--map script,styling,markers etc..-->
+      <script>
+        //map function and init
+        function initMap() {
+          var myLatLng = {
+            lat: 62.598719,
+            lng: 29.761152
+          };
+          var map = new google.maps.Map(document.getElementById('map'), {
+            center: myLatLng,
+            zoom: 18,
+
+            //Styles a map in night mode.
+            styles: [{
               elementType: 'geometry',
               stylers: [{
                 color: '#242f3e'
@@ -276,42 +299,42 @@
                 color: '#17263c'
               }]
             }
-          ]
-        });
-        //map marker
-        var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'Visio4'
-        });
-        // Create our info window content   
-        var infoWindowContent = '<div class="info_content">' +
-          '<h3>Torikatu 17, 80100 Joensuu, Suomi, Visio4</h3>' +
-          '</div>';
+            ]
+          });
+          //map marker
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Visio4'
+          });
+          // Create our info window content   
+          var infoWindowContent = '<div class="info_content">' +
+            '<h3>Torikatu 17, 80100 Joensuu, Suomi, Visio4</h3>' +
+            '</div>';
 
-        // Initialise the inforWindow
-        var infoWindow = new google.maps.InfoWindow({
-          content: infoWindowContent
-        });
+          // Initialise the inforWindow
+          var infoWindow = new google.maps.InfoWindow({
+            content: infoWindowContent
+          });
 
-        // Display our info window when the marker is clicked
-        google.maps.event.addListener(marker, 'click', function () {
-          infoWindow.open(map, marker);
-        });
-      }
-    </script>
+          // Display our info window when the marker is clicked
+          google.maps.event.addListener(marker, 'click', function () {
+            infoWindow.open(map, marker);
+          });
+        }
+      </script>
 
-    <!--API key google maps-->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY&callback=initMap"
-      type="text/javascript"></script>
-  </div>
+      <!--API key google maps-->
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY&callback=initMap"
+        type="text/javascript"></script>
+    </div>
 
-  <!--Social links-->
-  <div>
-    
-  </div>
+    <!--Social links-->
+    <div>
 
-  
+    </div>
+
+
 
 </body>
 
