@@ -79,9 +79,9 @@
     <div class="cbp-af-inner">
       <h1 style="font-family: 'Forum', cursive;"><strong>Visio4</strong></h1>
       <nav>
-        <a href="#" onclick="$('#Palvelut').animatescroll();" class="navbarfont">Palvelut</a>
-        <a href="#" onclick="$('#Tuotteet').animatescroll();" class="navbarfont">Hinnasto</a>
-        <a href="#" onclick="$('#Meistä').animatescroll();" class="navbarfont">Keitä me olemme</a>
+        <a href="#" onclick="$('#palvelutjump').animatescroll();" class="navbarfont">Palvelut</a>
+        <a href="#" onclick="$('#hinnastojump').animatescroll();" class="navbarfont">Hinnasto</a>
+        <a href="#" onclick="$('#Meistäjump').animatescroll();" class="navbarfont">Keitä me olemme</a>
         <a href="#" onclick="$('#mapdiv').animatescroll();" class="navbarfont">Mistä meidät löytää?</a>
       </nav>
     </div>
@@ -105,25 +105,35 @@
     <h2 class="headeredits" id="Palvelut"><strong>Palvelut</strong></h2>
     <p class="palvtuotteet">Visio4 on palveleva Joensuulainen<br> Parturi-kampaamo & kauneushoitola.</p>
     <p class="palvtuotteet2"><strong>HIUSTENLEIKKAUS</strong></p>
-    <p class="palvtuotteet"></p>
+    <p class="palvtuotteet">Klassisen hiusmuodin lisäksi tarjoamme ammattitaidolla hiusmallien viimeisimmät trendit.
+      Tarjoamme Sinulle tämän päivän monipuolisen ja -muotoisen hiusmuodin erikoisvärjäyksistä rohkeampiin
+      hiusmalleihin saakka.</p>
     <p class="palvtuotteet2"><strong>VÄRJÄYS</strong></p>
-    <p class="palvtuotteet"></p>
+    <p class="palvtuotteet">Olemme värjäyksen huippuosaaja. Vuosikymmenten kokemus yhdistettynä jatkuvaan
+      kouluttautumiseen takavat onnistuneen värjäyksen haasteellisissakin tilanteissa. Käytössämme on hiustenkäsittelyn
+      viimeisin teknologia.</p>
     <p class="palvtuotteet2"><strong>PIDENNYKSET</strong></p>
-    <p class="palvtuotteet"></p>
+    <p class="palvtuotteet">Käytössämme on uusimmat hiustenpidennystekniikat sekä laadukkaat pidennystuotteet.</p>
     <p class="palvtuotteet2"><strong>KAMPAUKSET</strong></p>
+    <p class="palvtuotteet">Meiltä tyylikkäät kampaukset passikuviin, juhliin, häihin, syntymäpäiville
+      työhaastatteluihin.</p>
     <p class="palvtuotteet"></p>
-    <p class="palvtuotteet"></p>
-    <img src="Kuvat/" id="img1">
+
+  </div>
+
+  <div>
+    <img src="Kuvat/scissors.jpg" id="img1">
   </div>
 
   <!--Sub content-->
   <div id="hinnastojump"></div>
   <div class="headers" id="col-2">
     <h2 class="headeredits" id="Tuotteet"><strong>Hinnasto</strong></h2>
-    <p class="palvtuotteet"></p>
-    <p class="palvtuotteet"></p>
-
-    <img src="" id="img2">
+    
+  </div>
+  <div>
+    <img src="Kuvat/parturikampaamo.jpg" id="img2">
+    <img src="Kuvat/kauneushoitola.jpg" id="img3">
   </div>
 
   <div id="meistäjump"></div>
@@ -142,11 +152,11 @@
   <div id="mapdiv2">
     <h2 id="Paikka" id="mapheader"><strong>Muistathan varata aikasi ajoissa?</strong></h2>
   </div>
-    <div id=mapparagraph>
-      <p>Soita <strong>013 229 900</strong> tai laita sähköpostia osoitteeseen <strong>soitamieluummin@visio4.fi</strong></p>
-      <p id="osoite">Tai tule piipahtamaan osoitteessa <strong>Torikatu 17, 80100 Joensuu.</strong></p>
-    </div>
-  
+  <div id=mapparagraph>
+    <p>Soita <strong>013 229 900</strong> tai laita sähköpostia osoitteeseen <strong>soitamieluummin@visio4.fi</strong></p>
+    <p id="osoite">Tai tule piipahtamaan osoitteessa <strong>Torikatu 17, 80100 Joensuu.</strong></p>
+  </div>
+
 
   <!--google maps scripts and styling-->
   <div id="map" style="width:100%;height:400px">
@@ -165,128 +175,128 @@
 
           //Styles a map in night mode.
           styles: [{
-              elementType: 'geometry',
-              stylers: [{
-                color: '#242f3e'
-              }]
-            },
-            {
-              elementType: 'labels.text.stroke',
-              stylers: [{
-                color: '#242f3e'
-              }]
-            },
-            {
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#746855'
-              }]
-            },
-            {
-              featureType: 'administrative.locality',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'poi',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#263c3f'
-              }]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#6b9a76'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#38414e'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry.stroke',
-              stylers: [{
-                color: '#212a37'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#9ca5b3'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#746855'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry.stroke',
-              stylers: [{
-                color: '#1f2835'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#f3d19c'
-              }]
-            },
-            {
-              featureType: 'transit',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#2f3948'
-              }]
-            },
-            {
-              featureType: 'transit.station',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#17263c'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#515c6d'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.stroke',
-              stylers: [{
-                color: '#17263c'
-              }]
-            }
+            elementType: 'geometry',
+            stylers: [{
+              color: '#242f3e'
+            }]
+          },
+          {
+            elementType: 'labels.text.stroke',
+            stylers: [{
+              color: '#242f3e'
+            }]
+          },
+          {
+            elementType: 'labels.text.fill',
+            stylers: [{
+              color: '#746855'
+            }]
+          },
+          {
+            featureType: 'administrative.locality',
+            elementType: 'labels.text.fill',
+            stylers: [{
+              color: '#d59563'
+            }]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'labels.text.fill',
+            stylers: [{
+              color: '#d59563'
+            }]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'geometry',
+            stylers: [{
+              color: '#263c3f'
+            }]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'labels.text.fill',
+            stylers: [{
+              color: '#6b9a76'
+            }]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry',
+            stylers: [{
+              color: '#38414e'
+            }]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry.stroke',
+            stylers: [{
+              color: '#212a37'
+            }]
+          },
+          {
+            featureType: 'road',
+            elementType: 'labels.text.fill',
+            stylers: [{
+              color: '#9ca5b3'
+            }]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry',
+            stylers: [{
+              color: '#746855'
+            }]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry.stroke',
+            stylers: [{
+              color: '#1f2835'
+            }]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'labels.text.fill',
+            stylers: [{
+              color: '#f3d19c'
+            }]
+          },
+          {
+            featureType: 'transit',
+            elementType: 'geometry',
+            stylers: [{
+              color: '#2f3948'
+            }]
+          },
+          {
+            featureType: 'transit.station',
+            elementType: 'labels.text.fill',
+            stylers: [{
+              color: '#d59563'
+            }]
+          },
+          {
+            featureType: 'water',
+            elementType: 'geometry',
+            stylers: [{
+              color: '#17263c'
+            }]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.fill',
+            stylers: [{
+              color: '#515c6d'
+            }]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.stroke',
+            stylers: [{
+              color: '#17263c'
+            }]
+          }
           ]
         });
         //map marker
@@ -319,10 +329,10 @@
 
   <!--Social links-->
   <div>
-    
+
   </div>
 
-  
+
 
 </body>
 
