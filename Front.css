@@ -1,6 +1,21 @@
 body {
     background-color: grey;
-    overflow-x:hidden;
+   overflow-x: hidden;
+    margin-bottom: 120px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+p {
+    font-family: 'Staatliches', cursive;
+}
+
+span {
+    margin: 200px;
 }
 
 #Visio4Logo {
@@ -14,6 +29,7 @@ body {
     position: relative;
     top: 300px;
     left: 45%;
+    clear: both;
 }
 
 #logoborder {
@@ -24,67 +40,29 @@ body {
     border-bottom:1px solid black;
 }
 
-.palvtuotteet {
-    max-width: 500px;
-    font-size: 30px;
+.col-1 {
+
 }
 
-#Palvelut {
-    float: right;
-    clear: both;
+.col-2 {
+
 }
 
-#Tuotteet {
-    float: right;
-    clear: both;
+.col-3 {
+
 }
 
-#Meistä {
-    float: right;
-    clear: both;
-}
+.col-4 {
 
-
-p {
-    font-family: 'Staatliches', cursive;
-    float: right;
-    clear: both;
-    overflow: auto;
-}
-
-#keitämeolemmeteksti {
-    max-width: 600px;
-    font-size: 30px;
-    position: absolute;
-    position: relative;
-    top: 800px;
-}
-
-#keitämeolemmeteksti2 {
-    max-width: 600px;
-    font-size: 30px;
-    position: absolute;
-    position: relative;
-    top: 800px;
-    right: 100px;
-}
-
-span {
-    margin: 200px;
 }
 
 .headeredits {
     font-family: 'Unlock', cursive;
     font-size: 50px;
     z-index: 1;
-    margin: 100px;
     line-height: 2.0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding-bottom: 3px;
-    position: absolute;
-    position: relative;
-    top: 800px;
 }
 
 #map {
@@ -95,35 +73,6 @@ span {
     top: 3600px;
     border-color: #bababa;
     border: 10px solid grey;
-}
-
-#mapparagraph {
-    position: absolute;
-    position: relative;
-    top: 3500px;
-    right: 30%;
-    font-size: 30px;
-}
-
-#mapheader {
-    position: absolute;
-    position: relative;
-    top: 3400px;
-    right: 30%;
-    font-size: 30px;
-}
-#paikka {
-    position: absolute;
-    position: relative;
-    top: 4700px;
-    left: 650px;
-    
-}
-
-#osoite {
-    position: absolute;
-    position: relative;
-    right: 100px;
 }
 
 footer {
