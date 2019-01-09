@@ -3,6 +3,10 @@ body {
     overflow-x:hidden;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 #Visio4Logo {
     margin-left: auto;
     margin-right: auto;
@@ -70,13 +74,13 @@ body {
 #palvelutjump {
     position: absolute;
     position: relative;
-top:700px;
+    top:700px;
 }
 
 #Meistäjump {
     position: absolute;
     position: relative;
-top: 2900px;
+    top: 2900px;
 }
 
 #Hinnastojump {
