@@ -217,3 +217,9 @@ footer {
     
 }
 
+@media screen and (min-width:481px;) {
+    .mobile {
+        width:480px;
+    }
+}
+
