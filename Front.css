@@ -19,28 +19,7 @@ body {
     top: 300px;
     left: 45%;
 }
-#img1 {
-    width: 900px;
-    position: absolute;
-    position:relative;
-    top: 1200px;
-}
 
-#img2 {
-    width: 400px; 
-    margin-bottom: 50px;
-    position: absolute;
-    position:relative;
-    top: 2000px;
-}
-
-#img3 {
-    width: 400px;
-    position: absolute;
-    position:relative;
-    top: 2600px;
-    right: 400px;
-}
 #logoborder {
     margin: auto;
     position: absolute;
@@ -57,7 +36,7 @@ body {
 #col-2 {
     position: absolute;
     position: relative;
-    top: 400px;
+    top: 800px;
 }
 
 
@@ -94,7 +73,7 @@ body {
     font-size: 30px;
     position: absolute;
     position: relative;
-    top: 850px;
+    top: 800px;
 }
 
 .palvtuotteet2 {
@@ -141,6 +120,28 @@ span {
     margin: 200px;
 }
 
+#img1 {
+    width: 900px;
+    position: absolute;
+    position:relative;
+    top: 1200px;
+}
+
+#img2 {
+    width: 400px; 
+    margin-bottom: 50px;
+    position: absolute;
+    position:relative;
+    top: 2000px;
+}
+
+#img3 {
+    width: 400px;
+    position: absolute;
+    position:relative;
+    top: 2600px;
+    right: 400px;
+}
 .headeredits {
     font-family: 'Unlock', cursive;
     font-size: 50px;
@@ -176,7 +177,7 @@ span {
 #mapheader {
     position: absolute;
     position: relative;
-    
+    top: 4650px;
     left: 650px;
     font-size: 30px;
 }
@@ -185,13 +186,13 @@ span {
 #mapdiv {
     position: absolute;
     position: relative;
-    top: 3900px;
+    top: 4450px;
     right: 650px;
 }
 #mapdiv2 {
     position: absolute;
     position: relative;
-    top: 4200px;
+    top: 4900px;
     left: 730px;
 }
 
