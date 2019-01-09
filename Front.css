@@ -46,9 +46,7 @@ body {
     top: 1600px;
 }
 
-#meistä {
 
-}
 
 #palvelutjump {
     position: absolute;
@@ -218,9 +216,4 @@ footer {
     
 }
 
-@media screen and (min-width:481px;) {
-    div {
-        width:480px;
-    }
-}
 
