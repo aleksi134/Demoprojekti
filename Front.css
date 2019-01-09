@@ -5,6 +5,11 @@ body {
     background-color: grey;
     overflow-x:hidden;
 }
+* {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 #Visio4Logo {
     margin-left: auto;
@@ -17,6 +22,12 @@ body {
     position: relative;
     top: 300px;
     left: 45%;
+}
+
+.social {
+    border: 50px solid black;
+
+
 }
 
 #img1 {
@@ -47,6 +58,26 @@ body {
     top: 400px;
     border-bottom:1px solid black;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
 #col-1 {
     display: block;
 
@@ -148,14 +179,14 @@ span {
     height: 400px;
     background-color: grey;
     position: fixed;
-    top: 3600px;
+    top: 3700px;
     border-color: #bababa;
     border: 10px solid grey;
 }
 
 #mapparagraph {
     position: relative;
-    top: 3450px;
+    top: 3550px;
     right: 25%;
     font-size: 30px;
 }
@@ -174,7 +205,7 @@ span {
 }
 #mapdiv2 {
     position: relative;
-    top: 4200px;
+    top: 4300px;
     left: 730px;
 }
 
@@ -187,14 +218,14 @@ span {
 footer {
     
     position: relative;
-    top: 4000px;
+    top: 3200px;
     text-align: center;
 
 }
 #footerborder {
     border-top: 1px solid grey;
     position: relative;
-    top: 3950px;
+    top: 3150px;
     
 }
 
