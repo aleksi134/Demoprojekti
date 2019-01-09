@@ -31,10 +31,11 @@ body {
 }
 
 #img1 {
-    width: 800px;
+    width: 900px;
     position: absolute;
     position:relative;
     top: 1000px;
+    height: 1000px;
 }
 
 #img2 {
@@ -104,12 +105,12 @@ body {
 
 #Meistäjump {
     position: relative;
-    top: 2900px;
+    top: 2500px;
 }
 
 #Hinnastojump {
     position: relative;
-    top: 1900px;
+    top: 1600px;
 }
 
 .palvtuotteet {
@@ -200,12 +201,12 @@ span {
 
 #mapdiv {
     position: relative;
-    top: 3900px;
+    top: 3700px;
     right: 650px;
 }
 #mapdiv2 {
     position: relative;
-    top: 4300px;
+    top: 3900px;
     left: 730px;
 }
 
