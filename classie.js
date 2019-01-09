@@ -65,4 +65,4 @@ if ( typeof define === 'function' && define.amd ) {
   window.classie = classie;
 }
 
-})(window);
+})( window );
