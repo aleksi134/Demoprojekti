@@ -25,7 +25,7 @@
 	position: relative;
 }
 
- /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
+
 .cbp-af-header h1,
 .cbp-af-header nav a {
 	line-height: 230px;
@@ -77,7 +77,7 @@
 	font-size: 2em;
 }
 
-/* Example Media Queries */
+
 @media screen and (max-width: 55em) {
 	
 	.cbp-af-header .cbp-af-inner {
@@ -130,5 +130,4 @@
 
 .navbarfont {
 	font-family: 'Merriweather Sans', sans-serif;
-	
 }
