@@ -18,16 +18,17 @@ font-family: 'Staatliches', cursive;
 font-family: 'Abril Fatface', cursive;
 
 
+font-family: 'Merienda', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Forum', cursive;
+
 AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY
 
 62.598719
 
 29.761152
-
-
-<h1 style="font-family: 'Varela Round', sans-serif;"><strong>Visio4</strong></h1>
-
-
 
 CSS gradient generated Black/white eclipse 
 
@@ -66,8 +67,4 @@ background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #0
 
 
 
-            font-family: 'Merienda', cursive;
-font-family: 'Bad Script', cursive;
-font-family: 'Poiret One', cursive;
-font-family: 'Lobster Two', cursive;
-font-family: 'Forum', cursive;
+
