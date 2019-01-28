@@ -45,7 +45,8 @@
 
   <!--stylesheet links-->
   <link rel=StyleSheet href="Front.css" type="text/css" media=screen>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="StyleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="StyleSheet" href="Social.css" type="text/css" media=screen>
 
 
   <!--Fonts-->
@@ -53,20 +54,27 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Charm|Major+Mono+Display|Staatliches|Unlock" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Forum|Lobster+Two|Merienda|Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
   <!--Pictures link-->
   <link href="Kuvat/">
 
 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
 
   <!-- jQuery library -->
   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
   <script src="animatescroll.js"></script>
 
   <!-- Latest compiled JavaScript bootstrap -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
 </head>
 
 
@@ -78,11 +86,11 @@
     <!--navbar-->
     <div class="cbp-af-header">
       <div class="cbp-af-inner">
-        <h1 style="font-family: 'Forum', cursive;"><strong>Visio4</strong></h1>
+        <a href="#" class="navbar-right img"><img style="max-width:200px; margin-top: 20px;" src="Kuvat/logo.png" class="img-responsive"></a>
         <nav>
-          <a href="#" onclick="$('#palvelutjump').animatescroll();" class="navbarfont">Palvelut</a>
-          <a href="#" onclick="$('#hinnastojump').animatescroll();" class="navbarfont">Hinnasto</a>
-          <a href="#" onclick="$('#Meistäjump').animatescroll();" class="navbarfont">Keitä me olemme</a>
+          <a href="#" onclick="$('#palvelut').animatescroll();" class="navbarfont">Palvelut</a>
+          <a href="#" onclick="$('#hinnasto').animatescroll();" class="navbarfont">Hinnasto</a>
+          <a href="#" onclick="$('#Meistä').animatescroll();" class="navbarfont">Keitä me olemme</a>
           <a href="#" onclick="$('#mapdiv').animatescroll();" class="navbarfont">Mistä meidät löytää?</a>
         </nav>
       </div>
@@ -90,257 +98,291 @@
 
 
 
+    <div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+
 
 
     <!--Logo-->
-    <div>
-      <a href="default.asp" id="Visio4Logo">
-        <img src="Kuvat/logo.png" alt="Visio4">
-      </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5"></div>
+        <a href="" id="Visio4Logo">
+          <img class="img-responsive img-fluid" src="Kuvat/logo.png" alt="Visio4">
+        </a>
+      </div>
       <h3 id="logoborder"></h3>
     </div>
+  </div>
 
-    <!--main content-->
+  <!--main content-->
+  <div class="container">
+    <div class="row " id="Palvelut">
+      <div class="col text-center">
+        <h2 class="headeredits"><strong>Palvelut</strong></h2>
+        <p>Visio4 on palveleva Joensuulainen<br> Parturi-kampaamo & kauneushoitola.</p>
+        <p><strong>HIUSTENLEIKKAUS</strong></p>
+        <p>Klassisen hiusmuodin lisäksi tarjoamme ammattitaidolla hiusmallien viimeisimmät trendit.
+          Tarjoamme Sinulle tämän päivän monipuolisen ja -muotoisen hiusmuodin erikoisvärjäyksistä rohkeampiin
+          hiusmalleihin saakka.</p>
+        <p><strong>VÄRJÄYS</strong></p>
+        <p>Olemme värjäyksen huippuosaaja. Vuosikymmenten kokemus yhdistettynä jatkuvaan
+          kouluttautumiseen takavat onnistuneen värjäyksen haasteellisissakin tilanteissa. Käytössämme on
+          hiustenkäsittelyn
+          viimeisin teknologia.</p>
+        <p><strong>PIDENNYKSET</strong></p>
+        <p>Käytössämme on uusimmat hiustenpidennystekniikat sekä laadukkaat pidennystuotteet.</p>
+        <p><strong>KAMPAUKSET</strong></p>
+        <p>Meiltä tyylikkäät kampaukset passikuviin, juhliin, häihin, syntymäpäiville tai
+          työhaastatteluihin.</p>
+        <p></p>
+      </div>
+    </div>
+  </div>
 
-    <div class="row" id="Palvelut">
-      <div class="col-md-5">
-        <div class="">
-          <h2 class="headeredits"><strong>Palvelut</strong></h2>
-          <p>Visio4 on palveleva Joensuulainen<br> Parturi-kampaamo & kauneushoitola.</p>
-          <p><strong>HIUSTENLEIKKAUS</strong></p>
-          <p>Klassisen hiusmuodin lisäksi tarjoamme ammattitaidolla hiusmallien viimeisimmät trendit.
-            Tarjoamme Sinulle tämän päivän monipuolisen ja -muotoisen hiusmuodin erikoisvärjäyksistä rohkeampiin
-            hiusmalleihin saakka.</p>
-          <p><strong>VÄRJÄYS</strong></p>
-          <p>Olemme värjäyksen huippuosaaja. Vuosikymmenten kokemus yhdistettynä jatkuvaan
-            kouluttautumiseen takavat onnistuneen värjäyksen haasteellisissakin tilanteissa. Käytössämme on
-            hiustenkäsittelyn
-            viimeisin teknologia.</p>
-          <p><strong>PIDENNYKSET</strong></p>
-          <p>Käytössämme on uusimmat hiustenpidennystekniikat sekä laadukkaat pidennystuotteet.</p>
-          <p><strong>KAMPAUKSET</strong></p>
-          <p>Meiltä tyylikkäät kampaukset passikuviin, juhliin, häihin, syntymäpäiville
-            työhaastatteluihin.</p>
-          <p></p>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <br><br><br><br><br><br><br>
+      </div>
+    </div>
+  </div>
+
+  <!--Sub content-->
+  <div class="container text-center" id="hinnasto">
+    <div class="row">
+      <div class="col">
+        <h2 class="headeredits"><strong>Hinnasto</strong></h2>
+        <img src="Kuvat/parturikampaamo.jpg" id="img2">
+        <img src="Kuvat/kauneushoitola.jpg" id="img3">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="row">
+        <div class="col">
+          <br><br><br><br><br><br><br>
         </div>
       </div>
     </div>
 
-    <div>
-      <img src="Kuvat/scissors.jpg" id="img1">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="headeredits" id="Meistä"><strong>Keitä me olemme</strong></h2>
+        <p id="keitämeolemmeteksti">Visio4:ssä sinua palvelee neljä ystävystä, huippuosaajaa yli 20 vuoden
+          ammattitaidolla
+          jotka rakastavat työtään ja kouluttautuvat mahdollisimman paljon, unohtamatta pilkettä silmäkulmassa.
+          Meille on tärkeää palvella sinua yksilöllisesti, juuri sinun persoonallisuutesi huomioiden. Inspiroidumme
+          väreistä, muodista, ympärillämme olevasta elämästä, kaikesta kauniista.
+        </p>
+        <p id="keitämeolemmeteksti2">Piipahda, nykäise hihasta, olet tervetullut.</p>
+        <img src="" id="img3">
+      </div>
     </div>
+  </div>
 
-    <!--Sub content-->
-    <div id="hinnastojump"></div>
-    <div class="headers" id="col-2">
-      <h2 class="headeredits" id="Tuotteet"><strong>Hinnasto</strong></h2>
-
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 id="Paikka" id="mapheader"><strong>Muistathan varata aikasi ajoissa?</strong></h2>
+      </div>
+      <div id=mapparagraph>
+        <p>Soita <strong>013 229 900</strong> tai laita sähköpostia osoitteeseen <strong>soitamieluummin@visio4.fi</strong></p>
+        <p id="osoite">Tai tule piipahtamaan osoitteessa <strong>Torikatu 17, 80100 Joensuu.</strong></p>
+      </div>
     </div>
-    <div>
-      <img src="Kuvat/parturikampaamo.jpg" id="img2">
-      <img src="Kuvat/kauneushoitola.jpg" id="img3">
-    </div>
+  </div>
 
-    <div id="meistäjump"></div>
-    <div class="headers" id="col-3">
-      <h2 class="headeredits" id="Meistä"><strong>Keitä me olemme</strong></h2>
-      <p id="keitämeolemmeteksti">Visio4:ssä sinua palvelee neljä ystävystä, huippuosaajaa yli 20 vuoden
-        ammattitaidolla
-        jotka rakastavat työtään ja kouluttautuvat mahdollisimman paljon, unohtamatta pilkettä silmäkulmassa.
-        Meille on tärkeää palvella sinua yksilöllisesti, juuri sinun persoonallisuutesi huomioiden. Inspiroidumme
-        väreistä, muodista, ympärillämme olevasta elämästä, kaikesta kauniista.
-      </p>
-      <p id="keitämeolemmeteksti2">Piipahda, nykäise hihasta, olet tervetullut.</p>
-      <img src="" id="img3">
-    </div>
+  <!--google maps scripts and styling-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="map mapdiv">
 
-    <div id="mapdiv"></div>
-    <div id="mapdiv2">
-      <h2 id="Paikka" id="mapheader"><strong>Muistathan varata aikasi ajoissa?</strong></h2>
-    </div>
-    <div id=mapparagraph>
-      <p>Soita <strong>013 229 900</strong> tai laita sähköpostia osoitteeseen <strong>soitamieluummin@visio4.fi</strong></p>
-      <p id="osoite">Tai tule piipahtamaan osoitteessa <strong>Torikatu 17, 80100 Joensuu.</strong></p>
-    </div>
+          <!--map script,styling,markers etc..-->
+          <script>
+            //map function and init
+            function initMap() {
+              var myLatLng = {
+                lat: 62.598719,
+                lng: 29.761152
+              };
+              var map = new google.maps.Map(document.getElementById('map'), {
+                center: myLatLng,
+                zoom: 18,
 
+                //Styles a map in night mode.
+                styles: [{
+                  elementType: 'geometry',
+                  stylers: [{
+                    color: '#242f3e'
+                  }]
+                },
+                {
+                  elementType: 'labels.text.stroke',
+                  stylers: [{
+                    color: '#242f3e'
+                  }]
+                },
+                {
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                    color: '#746855'
+                  }]
+                },
+                {
+                  featureType: 'administrative.locality',
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                    color: '#d59563'
+                  }]
+                },
+                {
+                  featureType: 'poi',
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                    color: '#d59563'
+                  }]
+                },
+                {
+                  featureType: 'poi.park',
+                  elementType: 'geometry',
+                  stylers: [{
+                    color: '#263c3f'
+                  }]
+                },
+                {
+                  featureType: 'poi.park',
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                    color: '#6b9a76'
+                  }]
+                },
+                {
+                  featureType: 'road',
+                  elementType: 'geometry',
+                  stylers: [{
+                    color: '#38414e'
+                  }]
+                },
+                {
+                  featureType: 'road',
+                  elementType: 'geometry.stroke',
+                  stylers: [{
+                    color: '#212a37'
+                  }]
+                },
+                {
+                  featureType: 'road',
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                    color: '#9ca5b3'
+                  }]
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'geometry',
+                  stylers: [{
+                    color: '#746855'
+                  }]
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'geometry.stroke',
+                  stylers: [{
+                    color: '#1f2835'
+                  }]
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                    color: '#f3d19c'
+                  }]
+                },
+                {
+                  featureType: 'transit',
+                  elementType: 'geometry',
+                  stylers: [{
+                    color: '#2f3948'
+                  }]
+                },
+                {
+                  featureType: 'transit.station',
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                    color: '#d59563'
+                  }]
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'geometry',
+                  stylers: [{
+                    color: '#17263c'
+                  }]
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'labels.text.fill',
+                  stylers: [{
+                    color: '#515c6d'
+                  }]
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'labels.text.stroke',
+                  stylers: [{
+                    color: '#17263c'
+                  }]
+                }
+                ]
+              });
+              //map marker
+              var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Visio4'
+              });
+              // Create our info window content   
+              var infoWindowContent = '<div class="info_content">' +
+                '<h3>Torikatu 17, 80100 Joensuu, Suomi, Visio4</h3>' +
+                '</div>';
 
-    <!--google maps scripts and styling-->
-    <div id="map" style="width:100%;height:400px">
+              // Initialise the inforWindow
+              var infoWindow = new google.maps.InfoWindow({
+                content: infoWindowContent
+              });
 
-      <!--map script,styling,markers etc..-->
-      <script>
-        //map function and init
-        function initMap() {
-          var myLatLng = {
-            lat: 62.598719,
-            lng: 29.761152
-          };
-          var map = new google.maps.Map(document.getElementById('map'), {
-            center: myLatLng,
-            zoom: 18,
-
-            //Styles a map in night mode.
-            styles: [{
-              elementType: 'geometry',
-              stylers: [{
-                color: '#242f3e'
-              }]
-            },
-            {
-              elementType: 'labels.text.stroke',
-              stylers: [{
-                color: '#242f3e'
-              }]
-            },
-            {
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#746855'
-              }]
-            },
-            {
-              featureType: 'administrative.locality',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'poi',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#263c3f'
-              }]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#6b9a76'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#38414e'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry.stroke',
-              stylers: [{
-                color: '#212a37'
-              }]
-            },
-            {
-              featureType: 'road',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#9ca5b3'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#746855'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry.stroke',
-              stylers: [{
-                color: '#1f2835'
-              }]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#f3d19c'
-              }]
-            },
-            {
-              featureType: 'transit',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#2f3948'
-              }]
-            },
-            {
-              featureType: 'transit.station',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#d59563'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'geometry',
-              stylers: [{
-                color: '#17263c'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.fill',
-              stylers: [{
-                color: '#515c6d'
-              }]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.stroke',
-              stylers: [{
-                color: '#17263c'
-              }]
+              // Display our info window when the marker is clicked
+              google.maps.event.addListener(marker, 'click', function () {
+                infoWindow.open(map, marker);
+              });
             }
-            ]
-          });
-          //map marker
-          var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Visio4'
-          });
-          // Create our info window content   
-          var infoWindowContent = '<div class="info_content">' +
-            '<h3>Torikatu 17, 80100 Joensuu, Suomi, Visio4</h3>' +
-            '</div>';
+          </script>
 
-          // Initialise the inforWindow
-          var infoWindow = new google.maps.InfoWindow({
-            content: infoWindowContent
-          });
-
-          // Display our info window when the marker is clicked
-          google.maps.event.addListener(marker, 'click', function () {
-            infoWindow.open(map, marker);
-          });
-        }
-      </script>
-
-      <!--API key google maps-->
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY&callback=initMap"
-        type="text/javascript"></script>
+          <!--API key google maps-->
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY&callback=initMap"
+            type="text/javascript"></script>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <!--Social links-->
-    <div class="social" style="position:relative;top:2000px;">
-      <h2 style="margin: 10px;"><strong>Instagram</strong></h2>
-      <a href="https://www.instagram.com/visio4/" target="_new" class="fa fa-instagram" style="position:relative;bottom: 720px;left:180px;"></a>
-      <iframe src="https://www.powr.io/plugins/social-feed/view?unique_label=b59767bb_1547047970&external_type=iframe"
-        width="1200px;" height="700" frameborder="0"></iframe>
+  <!--Social links-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h2 style="margin: 10px;"><strong>Instagram</strong></h2>
+        <a href="https://www.instagram.com/visio4/" target="_new" class="fa fa-instagram" style="position:relative;bottom: 720px;left:180px;"></a>
+        <iframe src="https://www.powr.io/plugins/social-feed/view?unique_label=b59767bb_1547047970&external_type=iframe"
+          width="1200px;" height="700" frameborder="0"></iframe>
+      </div>
     </div>
-
+  </div>
 
   </div>
 </body>
@@ -349,21 +391,27 @@
 
 <div id="footerborder"></div>
 
-<footer id="Companieslogo">
-  <img src="Kuvat/logo-kc.png" alt="KC logo">
-  <img src="Kuvat/logo-klapp.png" alt="klapp logo">
-  <img src="Kuvat/logo-lash-lovers.png" alt="lashloverslogo">
-  <img src="Kuvat/logo-loreal.png" alt="loreallogo">
-  <img src="Kuvat/logo-mediderma.png" alt="medidermalogo">
-  <img src="Kuvat/logo-schwarzkopf.png" alt="schwarzkopflogo">
-  <img src="Kuvat/logo-sesderma.png" alt="sesdermalogo">
-  <img src="Kuvat/logo-tigi.png" alt="tigilogo">
-  <img src="Kuvat/logo-wella.png" alt="wellalogo">
-  <link rel=StyleSheet href="Navbar.css" type="text/css" media=screen>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <footer id="Companieslogo">
+        <img class="img-responsive" src="Kuvat/logo-kc.png" alt="KC logo">
+        <img class="img-responsive" src="Kuvat/logo-klapp.png" alt="klapp logo">
+        <img class="img-responsive" src="Kuvat/logo-lash-lovers.png" alt="lashloverslogo">
+        <img class="img-responsive" src="Kuvat/logo-loreal.png" alt="loreallogo">
+        <img class="img-responsive" src="Kuvat/logo-mediderma.png" alt="medidermalogo">
+        <img class="img-responsive" src="Kuvat/logo-schwarzkopf.png" alt="schwarzkopflogo">
+        <img class="img-responsive" src="Kuvat/logo-sesderma.png" alt="sesdermalogo">
+        <img class="img-responsive" src="Kuvat/logo-tigi.png" alt="tigilogo">
+        <img class="img-responsive" src="Kuvat/logo-wella.png" alt="wellalogo">
+        <link rel=StyleSheet href="Navbar.css" type="text/css" media=screen>
 
-  <script type="text/javascript" src="additions.js"></script>
-  <script type="text/javascript" src="cbpAnimatedHeader.js"></script>
-  <script type="text/javascript" src="cbpAnimatedHeader.min.js"></script>
-  <script type="text/javascript" src="modernizr.custom.js"></script>
-  <script type="text/javascript" src="classie.js"></script>
-</footer>
+        <script type="text/javascript" src="additions.js"></script>
+        <script type="text/javascript" src="cbpAnimatedHeader.js"></script>
+        <script type="text/javascript" src="cbpAnimatedHeader.min.js"></script>
+        <script type="text/javascript" src="modernizr.custom.js"></script>
+        <script type="text/javascript" src="classie.js"></script>
+      </footer>
+    </div>
+  </div>
+</div>

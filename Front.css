@@ -1,46 +1,58 @@
 body {
     background-color: grey;
-   overflow-x: hidden;
+    
     
 }
+
+
+.container {
+  
+}
+
+.row {
+
+}
+
+.col {
+
+}
+
+.col-lg-5 {
+  margin-top: 300px;
+  margin-bottom: 300px;
+  
+}
+
+.col-sm-4 {
+    
+}
+
+#palvelut {
+    margin: 0;
+    background-image: url(kuvat/scissors2.png);
+    background-size: 1440px 800px;
+    background-repeat: no-repeat; 
+    display: compact;
+
+}
+
+#Visio4Logo {
+
+}
+
+
 p {
-    font-family: 'Staatliches', cursive;
+    font-family: 'Lato', sans-serif;
     font-size: 25px;
 }
 
-* {
-    -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-
-  .fa:hover {
-    opacity: 0.7;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  
 .headeredits {
     font-family: 'Unlock', cursive;
     font-size: 50px;
-    z-index: 1;
-    margin: 100px;
     line-height: 2.0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding-bottom: 3px;
+    
     
 }
 
@@ -48,7 +60,16 @@ p {
     width: 100%;
     height: 400px;
     background-color: grey;
-    p
     border-color: #bababa;
     border: 10px solid grey;
+}
+
+#img1 {
+    float:left;
+}
+#img2 {
+    size: 1440px 800px;
+}
+#img3 {
+    size: 1440px 800px;
 }

@@ -74,6 +74,10 @@
 	line-height: 90px;
 }
 
+.cbp-af-header.cbp-af-header-shrink img {
+margin:0em;
+}
+
 .cbp-af-header.cbp-af-header-shrink h1 {
 	font-size: 2em;
 }
