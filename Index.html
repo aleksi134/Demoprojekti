@@ -47,6 +47,7 @@
   <link rel=StyleSheet href="Front.css" type="text/css" media=screen>
   <link rel="StyleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="StyleSheet" href="Social.css" type="text/css" media=screen>
+  <link rel=StyleSheet href="Navbar.css" type="text/css" media=screen>
 
 
   <!--Fonts-->
@@ -88,7 +89,7 @@
       <div class="cbp-af-inner">
         <a href="#" class="navbar-right img"><img style="max-width:200px; margin-top: 20px;" src="Kuvat/logo.png" class="img-responsive"></a>
         <nav>
-          <a href="#" onclick="$('#palvelut').animatescroll();" class="navbarfont">Palvelut</a>
+          <a href="#" onclick="$('#Palvelut-section').animatescroll();" class="navbarfont">Palvelut</a>
           <a href="#" onclick="$('#hinnasto').animatescroll();" class="navbarfont">Hinnasto</a>
           <a href="#" onclick="$('#Meistä').animatescroll();" class="navbarfont">Keitä me olemme</a>
           <a href="#" onclick="$('#mapdiv').animatescroll();" class="navbarfont">Mistä meidät löytää?</a>
@@ -110,7 +111,7 @@
       <div class="row">
         <div class="col-lg-5"></div>
         <a href="" id="Visio4Logo">
-          <img class="img-responsive img-fluid" src="Kuvat/logo.png" alt="Visio4">
+          <img class="img-responsive" src="Kuvat/logo.png" alt="Visio4">
         </a>
       </div>
       <h3 id="logoborder"></h3>
@@ -119,8 +120,8 @@
 
   <!--main content-->
   <div class="container">
-    <div class="row " id="Palvelut">
-      <div class="col text-center">
+    <div class="row">
+      <div class="col text-center" id="Palvelut-section">
         <h2 class="headeredits"><strong>Palvelut</strong></h2>
         <p>Visio4 on palveleva Joensuulainen<br> Parturi-kampaamo & kauneushoitola.</p>
         <p><strong>HIUSTENLEIKKAUS</strong></p>
@@ -162,12 +163,12 @@
   </div>
 
   <div class="container">
-      <div class="row">
-        <div class="col">
-          <br><br><br><br><br><br><br>
-        </div>
+    <div class="row">
+      <div class="col">
+        <br><br><br><br><br><br><br>
       </div>
     </div>
+  </div>
 
   <div class="container">
     <div class="row">
@@ -198,176 +199,181 @@
   </div>
 
   <!--google maps scripts and styling-->
+  <div class="container" id="mapdiv">
+    <div class="row">
+      <div class="col" id="map">
+
+        <!--map script,styling,markers etc..-->
+        <script>
+          //map function and init
+          function initMap() {
+            var myLatLng = {
+              lat: 62.598719,
+              lng: 29.761152
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+              center: myLatLng,
+              zoom: 18,
+
+              //Styles a map in night mode.
+              styles: [{
+                elementType: 'geometry',
+                stylers: [{
+                  color: '#242f3e'
+                }]
+              },
+              {
+                elementType: 'labels.text.stroke',
+                stylers: [{
+                  color: '#242f3e'
+                }]
+              },
+              {
+                elementType: 'labels.text.fill',
+                stylers: [{
+                  color: '#746855'
+                }]
+              },
+              {
+                featureType: 'administrative.locality',
+                elementType: 'labels.text.fill',
+                stylers: [{
+                  color: '#d59563'
+                }]
+              },
+              {
+                featureType: 'poi',
+                elementType: 'labels.text.fill',
+                stylers: [{
+                  color: '#d59563'
+                }]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'geometry',
+                stylers: [{
+                  color: '#263c3f'
+                }]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'labels.text.fill',
+                stylers: [{
+                  color: '#6b9a76'
+                }]
+              },
+              {
+                featureType: 'road',
+                elementType: 'geometry',
+                stylers: [{
+                  color: '#38414e'
+                }]
+              },
+              {
+                featureType: 'road',
+                elementType: 'geometry.stroke',
+                stylers: [{
+                  color: '#212a37'
+                }]
+              },
+              {
+                featureType: 'road',
+                elementType: 'labels.text.fill',
+                stylers: [{
+                  color: '#9ca5b3'
+                }]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry',
+                stylers: [{
+                  color: '#746855'
+                }]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry.stroke',
+                stylers: [{
+                  color: '#1f2835'
+                }]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'labels.text.fill',
+                stylers: [{
+                  color: '#f3d19c'
+                }]
+              },
+              {
+                featureType: 'transit',
+                elementType: 'geometry',
+                stylers: [{
+                  color: '#2f3948'
+                }]
+              },
+              {
+                featureType: 'transit.station',
+                elementType: 'labels.text.fill',
+                stylers: [{
+                  color: '#d59563'
+                }]
+              },
+              {
+                featureType: 'water',
+                elementType: 'geometry',
+                stylers: [{
+                  color: '#17263c'
+                }]
+              },
+              {
+                featureType: 'water',
+                elementType: 'labels.text.fill',
+                stylers: [{
+                  color: '#515c6d'
+                }]
+              },
+              {
+                featureType: 'water',
+                elementType: 'labels.text.stroke',
+                stylers: [{
+                  color: '#17263c'
+                }]
+              }
+              ]
+            });
+            //map marker
+            var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              title: 'Visio4'
+            });
+            // Create our info window content   
+            var infoWindowContent = '<div class="info_content">' +
+              '<h3>Torikatu 17, 80100 Joensuu, Suomi, Visio4</h3>' +
+              '</div>';
+
+            // Initialise the inforWindow
+            var infoWindow = new google.maps.InfoWindow({
+              content: infoWindowContent
+            });
+
+            // Display our info window when the marker is clicked
+            google.maps.event.addListener(marker, 'click', function () {
+              infoWindow.open(map, marker);
+            });
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+
+
+  <!--API key google maps-->
   <div class="container">
     <div class="row">
       <div class="col">
-        <div id="map mapdiv">
-
-          <!--map script,styling,markers etc..-->
-          <script>
-            //map function and init
-            function initMap() {
-              var myLatLng = {
-                lat: 62.598719,
-                lng: 29.761152
-              };
-              var map = new google.maps.Map(document.getElementById('map'), {
-                center: myLatLng,
-                zoom: 18,
-
-                //Styles a map in night mode.
-                styles: [{
-                  elementType: 'geometry',
-                  stylers: [{
-                    color: '#242f3e'
-                  }]
-                },
-                {
-                  elementType: 'labels.text.stroke',
-                  stylers: [{
-                    color: '#242f3e'
-                  }]
-                },
-                {
-                  elementType: 'labels.text.fill',
-                  stylers: [{
-                    color: '#746855'
-                  }]
-                },
-                {
-                  featureType: 'administrative.locality',
-                  elementType: 'labels.text.fill',
-                  stylers: [{
-                    color: '#d59563'
-                  }]
-                },
-                {
-                  featureType: 'poi',
-                  elementType: 'labels.text.fill',
-                  stylers: [{
-                    color: '#d59563'
-                  }]
-                },
-                {
-                  featureType: 'poi.park',
-                  elementType: 'geometry',
-                  stylers: [{
-                    color: '#263c3f'
-                  }]
-                },
-                {
-                  featureType: 'poi.park',
-                  elementType: 'labels.text.fill',
-                  stylers: [{
-                    color: '#6b9a76'
-                  }]
-                },
-                {
-                  featureType: 'road',
-                  elementType: 'geometry',
-                  stylers: [{
-                    color: '#38414e'
-                  }]
-                },
-                {
-                  featureType: 'road',
-                  elementType: 'geometry.stroke',
-                  stylers: [{
-                    color: '#212a37'
-                  }]
-                },
-                {
-                  featureType: 'road',
-                  elementType: 'labels.text.fill',
-                  stylers: [{
-                    color: '#9ca5b3'
-                  }]
-                },
-                {
-                  featureType: 'road.highway',
-                  elementType: 'geometry',
-                  stylers: [{
-                    color: '#746855'
-                  }]
-                },
-                {
-                  featureType: 'road.highway',
-                  elementType: 'geometry.stroke',
-                  stylers: [{
-                    color: '#1f2835'
-                  }]
-                },
-                {
-                  featureType: 'road.highway',
-                  elementType: 'labels.text.fill',
-                  stylers: [{
-                    color: '#f3d19c'
-                  }]
-                },
-                {
-                  featureType: 'transit',
-                  elementType: 'geometry',
-                  stylers: [{
-                    color: '#2f3948'
-                  }]
-                },
-                {
-                  featureType: 'transit.station',
-                  elementType: 'labels.text.fill',
-                  stylers: [{
-                    color: '#d59563'
-                  }]
-                },
-                {
-                  featureType: 'water',
-                  elementType: 'geometry',
-                  stylers: [{
-                    color: '#17263c'
-                  }]
-                },
-                {
-                  featureType: 'water',
-                  elementType: 'labels.text.fill',
-                  stylers: [{
-                    color: '#515c6d'
-                  }]
-                },
-                {
-                  featureType: 'water',
-                  elementType: 'labels.text.stroke',
-                  stylers: [{
-                    color: '#17263c'
-                  }]
-                }
-                ]
-              });
-              //map marker
-              var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: 'Visio4'
-              });
-              // Create our info window content   
-              var infoWindowContent = '<div class="info_content">' +
-                '<h3>Torikatu 17, 80100 Joensuu, Suomi, Visio4</h3>' +
-                '</div>';
-
-              // Initialise the inforWindow
-              var infoWindow = new google.maps.InfoWindow({
-                content: infoWindowContent
-              });
-
-              // Display our info window when the marker is clicked
-              google.maps.event.addListener(marker, 'click', function () {
-                infoWindow.open(map, marker);
-              });
-            }
-          </script>
-
-          <!--API key google maps-->
-          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY&callback=initMap"
-            type="text/javascript"></script>
-        </div>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQFtj_XwLrDeXg4JyTddNs7l2rASszcLY&callback=initMap"
+          type="text/javascript"></script>
       </div>
     </div>
   </div>
@@ -377,7 +383,7 @@
     <div class="row">
       <div class="col-lg-5">
         <h2 style="margin: 10px;"><strong>Instagram</strong></h2>
-        <a href="https://www.instagram.com/visio4/" target="_new" class="fa fa-instagram" style="position:relative;bottom: 720px;left:180px;"></a>
+        <a href="https://www.instagram.com/visio4/" target="_new" class="fa fa-instagram"></a>
         <iframe src="https://www.powr.io/plugins/social-feed/view?unique_label=b59767bb_1547047970&external_type=iframe"
           width="1200px;" height="700" frameborder="0"></iframe>
       </div>
@@ -404,7 +410,8 @@
         <img class="img-responsive" src="Kuvat/logo-sesderma.png" alt="sesdermalogo">
         <img class="img-responsive" src="Kuvat/logo-tigi.png" alt="tigilogo">
         <img class="img-responsive" src="Kuvat/logo-wella.png" alt="wellalogo">
-        <link rel=StyleSheet href="Navbar.css" type="text/css" media=screen>
+
+      
 
         <script type="text/javascript" src="additions.js"></script>
         <script type="text/javascript" src="cbpAnimatedHeader.js"></script>
