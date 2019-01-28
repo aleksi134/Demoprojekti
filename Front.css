@@ -27,7 +27,7 @@ body {
     
 }
 
-#palvelut {
+#palvelut2 {
     margin: 0;
     background-image: url(kuvat/scissors2.png);
     background-size: 1440px 800px;
@@ -38,6 +38,12 @@ body {
 
 #Visio4Logo {
 
+}
+
+#logoborder {
+    border:1px solid black;
+    margin:30px;
+    margin-bottom: 200px;
 }
 
 
@@ -64,12 +70,25 @@ p {
     border: 10px solid grey;
 }
 
-#img1 {
-    float:left;
-}
+
 #img2 {
     size: 1440px 800px;
 }
 #img3 {
     size: 1440px 800px;
+}
+
+.img-size {
+    width: 100px;
+}
+
+
+#companieslogo {
+    width: 1200px;
+
+    
+}
+#footerborder {
+    border-top: 1px solid black;
+    
 }
