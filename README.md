@@ -65,6 +65,10 @@ background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #0
 
 <h1 style="font-family: 'Forum', cursive;"><strong>Visio4</strong></h1>
 
+<img class="rounded float-left image img-responsive" src="Kuvat/parturikampaamo.jpg" id="img2" alt="Parturi-kampaamo">
+        <div class="vertical-line" style="height: 1700px;"></div>
+        <img class="rounded float-right image img-responsive" src="Kuvat/kauneushoitola.jpg" id="img3" alt="kauneushoitola">  
+
 
 
 
