@@ -19,3 +19,12 @@
   iframe {
     border:20px solid black;
   }
+
+  .social-imgs {
+    margin-bottom: 5em;
+  }
+
+  .social-images-person {
+    border-radius: 50%;
+    width: 100px;
+  }

@@ -1,6 +1,6 @@
 body {
     background-color: lightgrey;
-   
+   overflow-x: hidden;
 }
 
 .container {
@@ -92,11 +92,7 @@ p {
     
 }
 
-.frame {
-    float:left;
-    
-    
-}
+
 
 #companieslogo {
     width: 1200px;
@@ -108,6 +104,9 @@ p {
 #footerborder {
     border-top: 1px solid grey;
     
+}
+#mapborder {
+    border: solid 90px grey;
 }
 
 
