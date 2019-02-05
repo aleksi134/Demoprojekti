@@ -1,5 +1,6 @@
 body {
     background-color: lightgrey;
+    overflow-x: hidden;
 }
 
 .container {
@@ -64,11 +65,11 @@ p {
 
 .img-text1 {
     
-
+    border:5px solid grey;
 }
 
 .img-text2 {
-    
+    border:5px solid grey;
    
 }
 
@@ -87,21 +88,35 @@ p {
     width: 100px;
 }
 
+.img-border {
+    
+}
+
+.frame {
+    float:left;
+    
+    
+}
 
 #companieslogo {
     width: 1200px;
 
     
 }
+.box { display:inline-block; }
+
 #footerborder {
     border-top: 1px solid grey;
     
 }
+
 
 @media screen and (max-width: 1200px) { 
     footer { display: flex; flex-direction: column; } 
     .img-display {display:none;}
     .img-text .img-text1 { justify-content: left; }
     .img-text .img-text2 { justify-content: right; }
-
+    iframe { max-width: 100%; }
+    .side-header-img { max-width:200px;margin:5px; }
+    .side-header-img2 { max-width:200px;margin:5px; }
 }

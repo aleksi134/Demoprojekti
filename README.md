@@ -69,6 +69,8 @@ background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #0
         <div class="vertical-line" style="height: 1700px;"></div>
         <img class="rounded float-right image img-responsive" src="Kuvat/kauneushoitola.jpg" id="img3" alt="kauneushoitola">  
 
+        class=" img-text1 text-left img-text"
+
 
 
 
