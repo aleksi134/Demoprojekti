@@ -1,6 +1,6 @@
 body {
     background-color: lightgrey;
-    overflow-x: hidden;
+   
 }
 
 .container {
@@ -118,5 +118,5 @@ p {
     .img-text .img-text2 { justify-content: right; }
     iframe { max-width: 100%; }
     .side-header-img { max-width:200px;margin:5px; }
-    .side-header-img2 { max-width:200px;margin:5px; }
+    .side-header-img2 { }
 }
