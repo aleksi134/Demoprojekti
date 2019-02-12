@@ -63,14 +63,35 @@ background-image: linear-gradient(to right top, #ffffff, #d0d0d3, #a2a2a8, #7677
 
 background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #08080c, #060609, #07070a, #07070a, #08080b, #0b0b10, #0e0e14, #111117, #13131a);
 
-<h1 style="font-family: 'Forum', cursive;"><strong>Visio4</strong></h1>
-
-<img class="rounded float-left image img-responsive" src="Kuvat/parturikampaamo.jpg" id="img2" alt="Parturi-kampaamo">
-        <div class="vertical-line" style="height: 1700px;"></div>
-        <img class="rounded float-right image img-responsive" src="Kuvat/kauneushoitola.jpg" id="img3" alt="kauneushoitola">  
-
-        class=" img-text1 text-left img-text"
 
 
+
+
+<div class="container text-center" style="border:1px solid black;" id="hinnasto">
+    <div class="row .no-gutters">
+      <div class="col-sm-11">
+        <h1 class="headeredits"><strong>Hinnasto</strong></h2>
+          <br><br>
+          <div class="d-inline-flex">
+            <h2 class="p-2 side-header-img" style="width:500px;"><strong>Parturi-Kampaamo</strong></h2>
+            <h2 class="p-2 side-header-img" style="width:500px;"><strong>Kauneushoitola</strong></h2>
+          </div>
+          <div class="col-sm-13">
+            <img class="rounded float-left image  img-responsive img-display img-border" src="Kuvat/parturikampaamo.jpg"
+              id="img2" alt="Parturi-kampaamo" >
+            <img class=" rounded float-right image  img-responsive img-display img-border"
+              src="Kuvat/kauneushoitola.jpg" id="img3" alt="kauneushoitola" >
+          </div>
+          <div  class="text-left" style="width:200px;">
+            <ul class="">
+              <li class="">
+                jtn
+              </li>
+            </ul>
+          <div class="clearfix vertical-line col-md-14" style="height: 1000px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 

@@ -109,6 +109,23 @@ p {
     border: solid 90px grey;
 }
 
+.v-divider {
+   
+   
+    width: 1px;
+    height: 1000px;
+    border-left: 1px solid gray;
+    white-space: nowrap;
+  }
+  .col-xs-3 {
+margin: 5px;
+padding-left: 30px;
+  }
+
+  .col-xs-2 {
+
+  }
+
 
 @media screen and (max-width: 1200px) { 
     footer { display: flex; flex-direction: column; } 
@@ -118,4 +135,5 @@ p {
     iframe { max-width: 100%; }
     .side-header-img { max-width:200px;margin:5px; }
     .side-header-img2 { }
+    #logo-img { width:100px; margin:0px; }
 }
