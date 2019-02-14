@@ -2,6 +2,9 @@ body {
     background-color: lightgrey;
    overflow-x: hidden;
 }
+#Visio4Logo {
+    width: 400px;
+}
 
 .container {
     
@@ -27,8 +30,8 @@ body {
 
 #logoborder {
     border:1px solid black;
-    margin-top: 50px;
-    margin-bottom: 300px;
+    margin-top: 100px;
+    margin-bottom: 400px;
 }
 
 div.vertical-line{
@@ -110,12 +113,12 @@ p {
 }
 
 .v-divider {
-   
-   
+   margin-left:5px;
+   margin-right:5px;
     width: 1px;
-    height: 1000px;
+    height: 510px;
     border-left: 1px solid gray;
-    white-space: nowrap;
+    
   }
   .col-xs-3 {
 margin: 5px;
@@ -132,8 +135,9 @@ padding-left: 30px;
     .img-display {display:none;}
     .img-text .img-text1 { justify-content: left; }
     .img-text .img-text2 { justify-content: right; }
-    iframe { max-width: 100%; }
-    .side-header-img { max-width:200px;margin:5px; }
+    iframe { max-width: 300px; }
+    .side-header-img { max-width:200px;margin:0;}
     .side-header-img2 { }
     #logo-img { width:100px; margin:0px; }
+    .v-divider { display:none; }
 }
