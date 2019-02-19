@@ -94,8 +94,8 @@
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
 
-    <script src="navbarmobileJS.js" type="text/javascript"></script>
-    <link rel=StyleSheet href="Navbarmobile.css" type="text/css" media=screen>
+  <script src="navbarmobileJS.js" type="text/javascript"></script>
+  <link rel=StyleSheet href="Navbarmobile.css" type="text/css" media=screen>
 </head>
 
 
@@ -118,7 +118,7 @@
       </div>
     </div>
 
-  
+
 
 
     <div>
@@ -133,7 +133,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4"></div>
-        <a href=""  >
+        <a href="">
           <img id="Visio4Logo" class="img-responsive" src="Kuvat/logo.png" alt="Visio4">
         </a>
       </div>
@@ -186,49 +186,58 @@
 
 
 
-  <div class="container" style="border: 1px solid black;">
-      <div class="row">
-          <div class="col-sm-12">
-              <h1 class="headeredits text-center" style="margin-top:3em; "><strong>Hinnasto</strong></h2>
-              </div>
-            <br><br>
-          <div class="d-inline-flex" >
-              <h2 class="p-2 side-header-img" style="width:500px;margin-left:125px;"><strong>Parturi-Kampaamo</strong></h2>
-              <h2 class="p-2 side-header-img" style="width:500px;margin-left:85px;margin-right:85px;"><strong>Kauneushoitola</strong></h2>
-            </div>
-        <div class="col-xs-3"><img class="  img-responsive img-display img-border" src="Kuvat/parturikampaamo.jpg"
-          id="img2" alt="Parturi-kampaamo" ></div>
-          
-        <div class="col-xs-2 v-divider align-middle"></div>
-        
-        <div class="col-xs-3">
-          <img class="   img-responsive img-display img-border"
-            src="Kuvat/kauneushoitola.jpg" id="img3" alt="kauneushoitola" ></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="headeredits text-center" style=><strong>Hinnasto</strong></h2>
+      </div>
+      <br><br>
+      <div class="d-inline-flex">
+        <h2 class="p-2 side-header-img" style="width:500px;margin-left:125px;"><strong>Parturi-Kampaamo</strong></h2>
+        <h2 class="p-2 side-header-img" style="width:500px;margin-left:85px;margin-right:85px;">
+          <strong>Kauneushoitola</strong></h2>
+      </div>
+      <div class="col-xs-3"><img class="  img-responsive img-display img-border" src="Kuvat/parturikampaamo.jpg"
+          id="img2" alt="Parturi-kampaamo"></div>
+
+      <div class="col-xs-2 v-divider align-middle"></div>
+
+      <div class="col-xs-3">
+        <img class="img-responsive img-display img-border" src="Kuvat/kauneushoitola.jpg" id="img3"
+          alt="kauneushoitola"></div>
     </div>
-        <div class="col-xs-2 float-left">
-          <ul class="">
-            <li>info</li>
-            <li>info</li>
-            <li>info</li>
-            <li>info</li>
-            <li>info</li>
-            <li>info</li>
-            <li>info</li>
-          </ul>
-        </div>
-        <div class="col-xs-4" style="margin-left: 520px;">
-            <ul>
-              <li>info</li>
-              <li>info</li>
-              <li>info</li>
-              <li>info</li>
-              <li>info</li>
-              <li>info</li>
-              <li>info</li>
-            </ul>
-          </div>
+    <button style="margin-left:125px;" class="btn btn-primary " type="button" data-toggle="collapse"
+      data-target="#parturi-hinnasto" aria-expanded="false" aria-controls="collapseExample">
+      Avaa Hinnasto
+    </button>
+    <div class="col-xs-2 float-left">
+      <ul id="parturi-hinnasto" class="collapsing">
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+      </ul>
 
     </div>
+    <div class="col-xs-4" style="margin-left: 520px;">
+      <button style="margin-left:150px;" class="btn btn-primary " type="button" data-toggle="collapse"
+        data-target="#kauneushoitola-hinnasto" aria-expanded="false" aria-controls="collapseExample">
+        Avaa Hinnasto
+      </button>
+      <ul class="collapsing" id="kauneushoitola-hinnasto">
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+        <li>info</li>
+      </ul>
+    </div>
+  </div>
   </div>
 
   <div class="container">
