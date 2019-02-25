@@ -91,16 +91,8 @@ p {
     width: 100px;
 }
 
-.img-border {
-    
-}
-
-
-
 #companieslogo {
     width: 1200px;
-
-    
 }
 .box { display:inline-block; }
 
@@ -129,6 +121,10 @@ padding: 30px;
 
   }
 
+
+.offset-3 {
+    
+}
 
 @media screen and (max-width: 1200px) { 
     footer { display: flex; flex-direction: column; } 
