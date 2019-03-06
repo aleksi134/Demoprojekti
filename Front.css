@@ -112,6 +112,14 @@ p {
     border-left: 1px solid gray;
     
   }
+#parturi-hinnasto li {
+    font-size:20px;
+}
+
+#parturi-hinnasto p {
+    font-size:15px;
+}
+
   .col-xs-3 {
 padding: 30px;
 
