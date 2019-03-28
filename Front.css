@@ -1,23 +1,19 @@
 body {
     background-color: lightgrey;
-   overflow-x: hidden;
+   
 }
 #Visio4Logo {
     width: 400px;
 }
 
-.container {
-    
-}
+
 
 .col-lg-5 {
   margin-top: 300px;
   margin-bottom: 300px;
 }
 
-.col-sm-4 {
-    
-}
+
 
 #palvelut2 {
     margin: 0;
@@ -105,8 +101,8 @@ p {
 }
 
 .v-divider {
-   margin-left:5px;
-   margin-right:5px;
+    
+    margin-right:5px;
     width: 1px;
     height: 530px;
     border-left: 1px solid gray;
@@ -150,5 +146,9 @@ padding: 30px;
     #logo-img { width:50px; margin:0px; }
     .v-divider { display:none; }
     .navbar-right img { display:none; }
-
+    .side-header-img4 { display:none; }
 }
+
+
+
+

@@ -94,4 +94,6 @@ background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #0
   </div>
 </div>
 
-
+Margins for buttons 
+610px first button
+440px second button
