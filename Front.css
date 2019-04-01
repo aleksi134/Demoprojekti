@@ -1,6 +1,6 @@
 body {
     background-color: lightgrey;
-   
+   overflow-x: hidden;
 }
 #Visio4Logo {
     width: 400px;
