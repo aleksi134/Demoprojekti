@@ -97,3 +97,11 @@ background-image: linear-gradient(to right bottom, #0e0e14, #0c0c12, #0a0a0f, #0
 Margins for buttons 
 610px first button
 440px second button
+
+
+Additions:
+1. Javascript interactive button or CSS made button with cool effect
+2. pictures that you can interact with that when you click on them, opens up a bio of said person in the picture.
+3. update social media/create new social media area
+4. maybe make a new page theme? visual design
+5. bug fix site for mobile use.
